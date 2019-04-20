@@ -8,6 +8,7 @@ div.page--wrapper
             section.section.intro
                 .section__content.intro__content
                     div.grid
+
                         div.intro__img
                              div.intro__img__inner
                         div.intro__text(  itemtype="https://schema.org/CreativeWork" )
@@ -46,7 +47,7 @@ div.page--wrapper
                         router-link.button.hover( :to="{path: '/create/' + cat.id } " v-if="is_admin && projectLoaded") 
                             span +
                 nav.section__content
-                    ul.grid 
+                    ul.grid( itemscope itemtype="http://www.schema.org/SiteNavigationElement" ) 
                         transition(name="fade" v-for="p in projectByCatId(cat.id)")
                             v-project-card(  :project="p" :key="p.json.title" v-if="!(p.json.isPublished === 'false')")
                         v-card-placeholder( v-if="!projectLoaded" )

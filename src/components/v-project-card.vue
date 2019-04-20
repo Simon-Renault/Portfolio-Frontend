@@ -1,7 +1,7 @@
 <template lang="pug">
 
 li
-    router-link.project-card( :to="{path: path}" :class="{'disabled' : project.json.isPublished === 'false' }" itemscope itemtype="http://schema.org/Article")
+    router-link.project-card( :to="{path: path}" itemprop="url" :class="{'disabled' : project.json.isPublished === 'false' }" )
         .project-card__content()
             div.coming-soon(v-if="project.json.isPublished === 'soon'") 
                 span coming soon

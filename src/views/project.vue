@@ -1,15 +1,20 @@
 <template lang="pug">
-main.page
+main.page(itemscope itemtype="http://schema.org/Article")
     v-page-grid
 
     .page__inner
 
         section.title
-            h1.title {{project.json.title}}
+            h1.title(itemprop="headline" ) {{project.json.title}}
+            meta(itemprop="author" content="Simon renault")
+            meta(itemprop="datePublished" content="2019-04-04")
+            meta(itemprop="publisher" content="Simon renault")
+            meta(itemprop="title" :content="project.json.title")
 
         section.page-header
             .page-header__img(ref="img")
-                image-loader(:src="project.json.image.src" width="100%" height="100%" )
+                image-loader( :src="project.json.image.src" width="100%" height="100%" )
+                meta(itemprop="image" :content="project.json.image.src")
             .page-header__overlay
             .page-header__content
                 router-link.button.back(to="/" :class="{ light : project.json.isLight == 'true'}" aria-label="Back to homepage")
@@ -23,15 +28,15 @@ main.page
         transition(name="fade")
             section.editor(v-if="isLoaded")
                 h1.title {{project.json.title}}
-                div.ProseMirror(v-html="project.content" ref="text")
-                    div.placeolder tata
+                div.ProseMirror(v-html="project.content" ref="text" itemprop="mainEntityOfPage" )
+                    div.placeolder 
 
         section.section.last
             header.section__header
                 h3.section__jumper You might also like
                 h2.section__title Other Projects
             .section__content.prevent-width
-                ul.grid.mobile-scroll
+                ul.grid.mobile-scroll(itemscope itemtype="http://www.schema.org/SiteNavigationElement")
                     div.item( v-for="i in projects" )
                         v-project-card( :project="get_projects_from_id(i)" 
                                         :key="get_projects_from_id(i.url)")
