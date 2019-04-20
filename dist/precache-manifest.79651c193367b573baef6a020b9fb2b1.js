@@ -140,16 +140,16 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
   },
   {
-    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
-    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
+    "revision": "540b8518aea7fb97bdb540e99c2b8b13",
+    "url": "/images/mci/mci-all.jpg"
   },
   {
     "revision": "bc4d56adf65a5c59474a79e987f4b04b",
     "url": "/fonts/HKGrotesk-SemiBold.woff2"
   },
   {
-    "revision": "540b8518aea7fb97bdb540e99c2b8b13",
-    "url": "/images/mci/mci-all.jpg"
+    "revision": "5261fcb3ea1299885da5bd9026abcce9",
+    "url": "/fonts/HKGrotesk-Regular.woff2"
   },
   {
     "revision": "956adc1ce35c401293c6230aeecbfc03",
@@ -200,16 +200,16 @@ self.__precacheManifest = [
     "url": "/images/chaos/chaos-team.jpg"
   },
   {
-    "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
-    "url": "/images/chaos/chaos-main.jpg"
-  },
-  {
     "revision": "760069b63ddbca5bad028753268dc5d4",
     "url": "/images/chaos/chaos-controler.jpg"
   },
   {
-    "revision": "5261fcb3ea1299885da5bd9026abcce9",
-    "url": "/fonts/HKGrotesk-Regular.woff2"
+    "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
+    "url": "/images/chaos/chaos-main.jpg"
+  },
+  {
+    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
+    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
   },
   {
     "revision": "0a4b42af7842d5cd85abe82cf202fe30",
@@ -220,16 +220,16 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-BoldLegacy.woff2"
   },
   {
+    "revision": "f5022dd39e66f8795cc8c68b1683461a",
+    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
+  },
+  {
     "revision": "e1e26c50793705393df2910e79224f84",
     "url": "/fonts/HKGrotesk-Light.woff2"
   },
   {
     "revision": "ec06f20b2b2071326a345be61c8700df",
     "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
-  },
-  {
-    "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
-    "url": "/fonts/HKGrotesk-MediumItalic.woff2"
   },
   {
     "revision": "c03c634d58e3ffc453109b6bfd7a0684",
@@ -240,12 +240,16 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
   },
   {
+    "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
+    "url": "/fonts/HKGrotesk-MediumItalic.woff2"
+  },
+  {
     "revision": "be29113842f0546046810cc7182953a3",
     "url": "/fonts/HKGrotesk-Medium.woff2"
   },
   {
-    "revision": "f579c94fe056bbab12dc3327e4babdfb",
-    "url": "/favicon.png"
+    "revision": "e0c82e0259003ca16be2c314ca1b6041",
+    "url": "/.htaccess"
   },
   {
     "revision": "f5118a7995e6740f4e8193cdac7dd772",
@@ -256,16 +260,16 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-Italic.woff2"
   },
   {
-    "revision": "f5022dd39e66f8795cc8c68b1683461a",
-    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
-  },
-  {
     "revision": "cdcf1c6074f15dfec2ad461e4c1db60a",
     "url": "/fonts/HKGrotesk-BoldItalic.woff2"
   },
   {
     "revision": "9514299387e6180cc5b3e5a20e9258a5",
     "url": "/fonts/HKGrotesk-Bold.woff2"
+  },
+  {
+    "revision": "f579c94fe056bbab12dc3327e4babdfb",
+    "url": "/favicon.png"
   },
   {
     "revision": "58632d5196088becd1047ceed6a909be",
@@ -294,9 +298,5 @@ self.__precacheManifest = [
   {
     "revision": "00c3bd86498305a391516792c04000d2",
     "url": "/app.html"
-  },
-  {
-    "revision": "debf3a484d12355dd33417906c323f6b",
-    "url": "/.htaccess"
   }
 ];
