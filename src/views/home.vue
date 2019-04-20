@@ -10,11 +10,11 @@ div.page--wrapper
                     div.grid
                         div.intro__img
                              div.intro__img__inner
-                        div.intro__text
-                            h1 Simon Renault.
-                            p Hello, I'm a 
+                        div.intro__text(  itemtype="https://schema.org/CreativeWork" )
+                            h1( itemprop="author") Simon Renault.
+                            p(itemprop="text") Hello, I'm a 
                                 em product designer
-                                |  with a focus in user experience, interaction design and creative coding.
+                                |  with a focus on user experience, interaction design and creative coding.
                             div.intro__actions
                                 div.flex-h.a
 
@@ -22,19 +22,19 @@ div.page--wrapper
                                         span Resume
                                         icon.white( name="download" height="20" width="20" ) 
                                         div.inner-resume 
-                                            a.inner-btn(href="/documents/CV_Simon-Renault.pdf" target="_blank") French
-                                            a.inner-btn(href="/documents/CV_Simon-Renault.pdf" target="_blank") English
+                                            a.inner-btn(href="/documents/CV_Simon-Renault.pdf" aria-label="English cv") English
+                                            a.inner-btn(href="/documents/CV_Simon-Renault.pdf" aria-label="French cv" ) French
                                         
                                 div.flex-h.b
-                                    a.button( href="mailto:simon.renault.pro@gmail.com" )
+                                    a.button( href="mailto:simon.renault.pro@gmail.com" aria-label="Email me")
                                         icon( name="mail" height="20" width="20" ) 
-                                    a.button( href="https://dribbble.com/Simon-Renault" target="_blank")
+                                    a.button( href="https://dribbble.com/Simon-Renault" aria-label="Dribble" target="_blank")
                                         icon( name="dribble" height="20" width="20" ).db
-                                    a.button( href="https://www.linkedin.com/in/simon-renault-pro/" target="_blank")
+                                    a.button( href="https://www.linkedin.com/in/simon-renault-pro/" aria-label="Linked In" target="_blank")
                                         icon( name="linkedin" height="20" width="20" ) 
-                                    a.button( href="https://www.instagram.com/simon.renault/" target="_blank")
+                                    a.button( href="https://www.instagram.com/simon.renault/" aria-label="Instagram" target="_blank")
                                         icon( name="instagram" height="20" width="20" ) 
-                                    a.button( href="https://github.com/Simon-Renault" target="_blank")
+                                    a.button( href="https://github.com/Simon-Renault" aria-label="Github" target="_blank")
                                         icon( name="github" height="20" width="20" ) 
                                     
             section.section( v-for="cat in cats" v-if="!cat.disabled")
@@ -45,8 +45,8 @@ div.page--wrapper
                     transition(name="fade")
                         router-link.button.hover( :to="{path: '/create/' + cat.id } " v-if="is_admin && projectLoaded") 
                             span +
-                .section__content
-                    div.grid 
+                nav.section__content
+                    ul.grid 
                         transition(name="fade" v-for="p in projectByCatId(cat.id)")
                             v-project-card(  :project="p" :key="p.json.title" v-if="!(p.json.isPublished === 'false')")
                         v-card-placeholder( v-if="!projectLoaded" )
@@ -63,13 +63,9 @@ div.page--wrapper
                         router-link.button.hover( :to="{path: '/create/1'} " v-if="is_admin && projectLoaded") 
                             span +
                 .section__content
-                    nav.grid 
+                    ul.grid 
                         transition(name="fade" v-for="p in projects")
                             v-project-card(  :project="p" :key="p.json.title" v-if="p.json.isPublished === 'false'")
-
-                        
-
-
         .mobile-footer
 
 </template>
@@ -100,10 +96,18 @@ export default {
         return {
              title : 'Simon Renault - portfolio',
              meta: [
+                { property:"og:locale" ,content:"en_GB" },
+                { property:"og:site_name" ,content:"Simon Renault - Portfolio" },
                 { property:"og:url"  ,   content:"https://simon-renault.com/"},
+                { property:"og:description"  ,   content:"Simon Renault is a product designer with a focus on user experience, interaction design and creative coding."},
                 { property :"og:image", content: "https://simon-renault.com/images/portfolio/portfolio-main.jpg" },
                 { property:"og:title" ,      content:"Simon Renault  -  portfolio"  },
                 { property:"og:type"  ,      content:"website" },
+                { name:"twitter:card"  ,      content:"summary" },
+                { name:"twitter:description"  ,      content:"Simon Renault is a product designer with a focus on user experience, interaction design and creative coding." },
+                { name:"twitter:title"  ,      content:"Simon Renault - Portfolio" },
+                { name:"twitter:site"  ,      content:"https://simon-renault.com/" },
+                { name:"twitter:creator"  ,      content:"Simon renault" },
              ]
         }
     },

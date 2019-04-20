@@ -99,7 +99,7 @@
   transition: 800ms all ease-in-out;
 } 
 .box-image.loaded img {
-  transition : none;
+  //transition : none;
 }
 .blured {
   filter: blur(25px);

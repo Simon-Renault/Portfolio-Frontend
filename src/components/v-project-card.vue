@@ -1,7 +1,7 @@
 <template lang="pug">
 
-router-link( :to="{path: path}" )
-    article.project-card( :class="{'disabled' : project.json.isPublished === 'false' }")
+li
+    router-link.project-card( :to="{path: path}" :class="{'disabled' : project.json.isPublished === 'false' }" itemscope itemtype="http://schema.org/Article")
         .project-card__content()
             div.coming-soon(v-if="project.json.isPublished === 'soon'") 
                 span coming soon
@@ -10,7 +10,7 @@ router-link( :to="{path: path}" )
             .project-card__infos
                 div
                     h4 {{project.json.exerpt}}
-                    h2 {{project.json.title}}
+                    h2(itemprop="name") {{project.json.title}}
 
 
 
@@ -60,6 +60,10 @@ a.button{
     top: 2rem;
     left: 2rem;
     z-index: 99;
+}
+
+li{
+    list-style: none;
 }
 
 </style>

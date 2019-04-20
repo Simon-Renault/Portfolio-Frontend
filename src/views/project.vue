@@ -12,7 +12,7 @@ main.page
                 image-loader(:src="project.json.image.src" width="100%" height="100%" )
             .page-header__overlay
             .page-header__content
-                button.button.back(@click="$router.push('/')" :class="{ light : project.json.isLight == 'true'}")
+                router-link.button.back(to="/" :class="{ light : project.json.isLight == 'true'}" aria-label="Back to homepage")
                     svg(xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left")
                         polyline(points="15 18 9 12 15 6")
 
@@ -142,35 +142,27 @@ export default {
     created(){
 
         this.url = this.$route.params.id
-
         const project = this.get_projects_from_id(this.url) || null
-
-       
         this.fetchContent()
-
-
-       
-       
-       
-        
+  
     },
     mounted(){
         this.$nextTick(()=> {
             // Setup a timer
-            let timeout;
-            const body = document.querySelector('html')
-            const img = this.$refs.img.querySelector('img')
+            //let timeout;
+            //const body = document.querySelector('html')
+            //const img = this.$refs.img.querySelector('img')
 
             // Listen for resize events
-            window.addEventListener('scroll',  ( event ) => {
-                if (timeout) window.cancelAnimationFrame(timeout);
+            // window.addEventListener('scroll',  ( event ) => {
+            //     if (timeout) window.cancelAnimationFrame(timeout);
                 
-                timeout = window.requestAnimationFrame( () => {
-                    let scrollAmount = body.scrollTop
-                    img.style.transform = `translate(0,${scrollAmount/3}px)`
-                });
+            //     timeout = window.requestAnimationFrame( () => {
+            //         let scrollAmount = body.scrollTop
+            //         img.style.transform = `translate(0,${scrollAmount/3}px)`
+            //     });
 
-            }, false);
+            // }, false);
         })
     }
 }
@@ -255,10 +247,10 @@ figure{
     top: 3rem;
     left: 3rem;
     width: 13rem !important;
-    height: 13rem ;
+    height: 13rem !important;
     @media screen and (min-width : $medium){
         width: 10rem !important;
-        height: 10rem;
+        height: 10rem !important;
     }
     display: flex;
     justify-content: center;

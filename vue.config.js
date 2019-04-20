@@ -47,7 +47,7 @@ module.exports = {
       }
     },
     renderer: new Renderer({
-      renderAfterTime: 10000, // Wait 5 seconds.
+      renderAfterTime: 20000, // Wait 5 seconds.
       headless: false // Display the browser window when rendering. Useful for debugging.
     })
   }
