@@ -1,6 +1,6 @@
 const path = require('path')
 const PrerenderSPAPlugin = require('prerender-spa-plugin')
-
+const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
 
 module.exports = {
   css: {
@@ -35,9 +35,20 @@ module.exports = {
         '/projects/starlight',
         '/projects/trees'
       ],
-      useRenderEvent: true,
-      headless: true,
-      onlyProduction: true
-    }
+      //useRenderEvent: true,
+      headless: false,
+      onlyProduction: true,
+      postProcess: route => {
+        // Defer scripts and tell Vue it's been server rendered to trigger hydration
+        route.html = route.html
+          .replace(/<script (.*?)>/g, '<script $1 defer>')
+          .replace('id="app"', 'id="app" data-server-rendered="true"');
+        return route;
+      }
+    },
+    renderer: new Renderer({
+      renderAfterTime: 10000, // Wait 5 seconds.
+      headless: false // Display the browser window when rendering. Useful for debugging.
+    })
   }
 }

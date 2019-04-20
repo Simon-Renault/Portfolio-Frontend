@@ -7,7 +7,7 @@ div.page--wrapper
         .page__inner 
             section.section.intro
                 .section__content.intro__content
-                    ul.grid
+                    div.grid
                         div.intro__img
                              div.intro__img__inner
                         div.intro__text
@@ -46,7 +46,7 @@ div.page--wrapper
                         router-link.button.hover( :to="{path: '/create/' + cat.id } " v-if="is_admin && projectLoaded") 
                             span +
                 .section__content
-                    ul.grid 
+                    div.grid 
                         transition(name="fade" v-for="p in projectByCatId(cat.id)")
                             v-project-card(  :project="p" :key="p.json.title" v-if="!(p.json.isPublished === 'false')")
                         v-card-placeholder( v-if="!projectLoaded" )
@@ -63,7 +63,7 @@ div.page--wrapper
                         router-link.button.hover( :to="{path: '/create/1'} " v-if="is_admin && projectLoaded") 
                             span +
                 .section__content
-                    ul.grid 
+                    nav.grid 
                         transition(name="fade" v-for="p in projects")
                             v-project-card(  :project="p" :key="p.json.title" v-if="p.json.isPublished === 'false'")
 
