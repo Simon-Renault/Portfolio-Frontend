@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  font-family: $hk;
+  font-weight: 400;
+
+  @media screen and (max-width : $small){
+    $map : (0px :2px ,$small : 4px);
+    @include poly-fluid-sizing('font-size',$map);
+
+  }
+  @media screen and (min-width : $small){
+    $map : ($small :4px ,$medium : 5px);
+    @include poly-fluid-sizing('font-size',$map);
+
+  }
+  @media screen and (min-width : $medium){
+    $map : ($medium :4px ,$large : 5px);
+    @include poly-fluid-sizing('font-size',$map);
+
+  }
+  @media screen and (min-width : $large){
+    $map : ($large :4px ,1920px : 5px);
+    @include poly-fluid-sizing('font-size',$map);
+
+  }
+}
+
+body {
+  font-family: $primary-font;
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+
+  ::selection {
+    text-shadow: none;
+  }
+}
+::selection {
+  background-color: rgba($color-dark-blue,0.63);
+  color: white;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote,
+figure {
+  margin: 0;
+}
+table {
+  padding: 0;
+}
+
+
+
+
+.alt{
+  font-size: 4rem;
+  text-align: center;
+
+   @include text-medium();
+}

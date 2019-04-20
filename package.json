@@ -1,0 +1,48 @@
+{
+  "name": "portfolio-prod",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "icons": "vsvg -s ./svg-icons -t ./src/compiled-icons"
+  },
+  "dependencies": {
+    "gsap": "^2.0.2",
+    "highlight.js": "^9.13.1",
+    "prerender-spa-plugin": "^3.4.0",
+    "register-service-worker": "^1.5.2",
+    "tiptap": "^1.8.0",
+    "tiptap-extensions": "^1.8.0",
+    "vue": "^2.5.21",
+    "vue-meta": "^1.5.8",
+    "vue-router": "^3.0.1",
+    "vue-svgicon": "^3.2.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-pwa": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "axios": "^0.18.0",
+    "node-sass": "^4.9.0",
+    "prerender-spa-plugin": "^3.2.1",
+    "sass-loader": "^7.0.1",
+    "vue-cli-plugin-axios": "^0.0.4",
+    "vue-cli-plugin-prerender-spa": "^1.1.5",
+    "vue-cli-plugin-pug": "^1.0.7",
+    "vue-cli-plugin-scss-base": "^0.1.10",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "main": "background.js"
+}

@@ -1,0 +1,701 @@
+@import 'base/reset';
+@import 'base/form';
+@import 'base/general';
+@import 'utilities/utilities';
+@import 'animations/animations';
+
+
+
+.app{
+    position: relative;
+    width: 100vw;
+    min-height:100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows:  auto;
+    @media screen and (min-width : $medium){
+        grid-template-rows: initial;
+        grid-template-columns: 30vw auto;
+    }
+    @media screen and (min-width : $large){
+        grid-template-columns: 25vw auto;
+    }
+    -webkit-overflow-scrolling: touch;
+}
+.page--wrapper{
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width : $medium){
+        grid-column: 2;
+    }
+    position: relative;
+    width: 100%;
+}
+
+.sidebar{
+    display: none;
+    @media screen and (min-width : $medium){
+       display: block;
+       position: fixed;
+       width: 30vw;
+    }
+    @media screen and (min-width : $large){
+       width: 25vw;
+    }
+    & > .top{
+        width: 100%;
+        transform: translate(-1px,-2px);
+        @include aspect(1 1.3);
+        @include background-image('/img/header.svg',contain);
+        background-size: 100% auto;
+    }
+}
+
+
+
+
+
+.page-header{
+    overflow: hidden;
+    width: 100%;
+    @include aspect(1 0.8);
+    @media screen and (min-width : $medium){
+        border-radius: 1rem;
+        @include aspect(2.3 1);
+    }
+    &__content{
+        @include full-absolute();
+        z-index: 999;
+    }
+    &__overlay{
+        @include full-absolute();
+    }
+}
+h1{
+    margin: 200px 0 0 0;
+    font-size: 16rem;
+    font-weight: 800;
+}
+
+
+
+.page{
+    width: 100%;
+    @media screen and (min-width : $medium){
+        padding-bottom: calc(100vw / 3.7);
+    }
+    &__inner{
+        z-index: 99;
+        @include inner();
+        
+    }
+    &__grid--layer{
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        bottom:0;
+        right:0;
+        left:0;
+        &__grid{
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 50px;
+            margin: 0 $margin-mobile;
+            @media screen and (min-width : $medium){
+                margin: 0 auto;
+                grid-template-columns: repeat(2,1fr);
+                $map : ($medium :250px ,$large : 300px);
+                @include poly-fluid-sizing('font-size',$map);
+                max-width: calc(2em + 1 * 50px);
+                width:  calc(2em + 1 * 50px);
+            }
+            @media screen and (min-width : $large){
+                grid-template-columns: repeat(3,1fr);
+                $map : ($large :250px ,1920px : 300px);
+                @include poly-fluid-sizing('font-size',$map);
+                max-width: calc(3em + 2 * 50px);
+                width:  calc(3em + 2 * 50px);
+            }
+            & > span{
+                border-left: 1px solid $color-light-grey;
+                border-right: 1px solid $color-light-grey;
+                display: none;
+                transform: scale(1,2);
+            }
+            & > span:nth-child(1){
+                display: block;
+            }
+            & > span:nth-child(2){
+                @media screen and (min-width : $medium){
+                display: block
+                }
+            }
+            & > span:nth-child(3){
+                @media screen and (min-width : $large){
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+.progressive-image{
+    width: 100% !important;
+    height: 100% !important;
+}
+.progressive-image-wrapper{
+    width: 100% !important;
+    height: 100% !important;
+    padding-bottom: initial !important;
+    & > img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    @media screen and (min-width : $medium){
+        grid-template-columns: repeat(2,1fr);
+    }
+    @media screen and (min-width : $large){
+        grid-template-columns: repeat(3,1fr);
+    }
+    @media screen and (max-width : $medium){
+        &.mobile-scroll{
+            overflow-x: scroll;
+            display: flex;
+            scroll-snap-type: x mandatory;
+            padding: 3px 0 60px $margin-mobile;
+            -webkit-overflow-scrolling: touch;
+            .item{
+                display: flex;
+                flex-direction: column;
+                flex-shrink: 0;
+                width: calc(100vw - 2 * #{$margin-mobile});
+                scroll-snap-align: center;
+                margin: 0 $margin-mobile/2 0 0;
+            }
+            &:after{
+                content : '.';
+                display:block;
+                opacity: 0;
+                margin: 0 0 0 $margin-mobile;
+            }
+        }
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        & > .select{
+            margin: 0 0 30px 0;
+        }
+    }
+}
+
+
+
+
+
+section{
+    max-width: 100vw;
+}
+
+
+
+.section{
+    user-select: none;
+    margin: 100px 0 100px 0;
+    position: relative;
+    &__header{
+        width: 100%;
+        margin: 0 0 30px ;
+        display: grid;
+        grid-template-columns: auto auto;
+        flex-direction: column;
+        @media screen and (max-width : $medium){
+            margin: 0 $margin-mobile 20px;
+        }
+    }
+    &__content{
+        white-space: nowrap;
+        max-width: 100vw;
+        @media screen and (max-width : $medium){
+            margin: 0 $margin-mobile;
+        }
+    }
+    &__jumper{
+        max-width: 80vw;
+        white-space: pre-wrap;
+        @include heading-jumper();
+        grid-column: 1;
+    }
+    &__title{
+        max-width: 80vw;
+        white-space: pre-wrap;
+        grid-column: 1;
+        @include heading-section();
+        &:after{
+            content : '.';
+        }
+    }
+}
+
+.footer{
+    user-select: none;
+    transform: translate(0,2px);
+    @media screen and (min-width : $medium){
+        @include aspect(3.85 1);
+        @include background-image('/img/footer.svg',cover);
+        position: absolute;
+    }
+    bottom:0;
+    left:0;
+    right:0;
+    width: 100vw;
+    background-size: 101%;
+    background-position: bottom;
+    position: absolute;
+    display: none;
+    @media screen and (min-width : $medium){
+        display:block;
+    }
+    &__content{
+        @include full-absolute();
+    }
+    &__inner{
+        @include inner();
+    }
+}
+
+.mobile-footer{
+    @include aspect(1 1.35);
+    @include background-image('/img/footer-mobile.svg',cover,bottom);
+    transform: translate(0,2px);
+    width: 100vw;
+    background-size: 102%;
+    @media screen and (min-width : $medium){
+        display: none;
+    }
+}
+
+
+
+
+.button{
+    min-height: 10rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    &.card{
+        @include aspect(1 1.35);
+        @media screen and (max-width : $medium){
+            @include aspect(1 0.33);
+        }
+        &.hover{
+            @include card--hover();
+            color: $color-white;
+            background-color: $color-dark-blue;
+        }
+        &.empty{
+            color: $color-dark-blue;
+            background-color: $color-light-grey;
+           
+        }
+    }
+    background-color: $color-dark-blue;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    &__inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        font-weight: 800;
+    }
+}
+   
+.placeholder{
+    @include loader();
+}
+
+.editor{
+    & h1{
+        margin: 30px $margin-mobile 20px;
+        font-size: 13rem;
+        font-weight: 900;
+        @media screen and (min-width : $medium){
+            display: none;
+        }
+    }
+    &__floating-menu{
+        z-index: 9999;
+        position: absolute;
+        visibility: hidden;
+        font-size: 5rem;
+        transform: translate(55px,-2px);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        & button{
+            height: 6rem;
+            min-width: 6rem;
+            padding: 0 8px;
+            border-radius: 1rem;
+            background: $color-light-grey;
+            margin : 0 1rem 0 0;
+        }
+        &.is-active{
+            color: red;
+            visibility: visible;
+        }
+    }
+}
+
+
+
+
+
+
+.login-section{
+    border-radius: 1rem;
+    min-height: 80px;
+    margin: 100px auto 250px ;
+    padding: 20px;
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    @include card();
+    @include medium-shadow();
+    & > h2{
+        color: $color-dark-blue;
+        font-size: 6rem;
+        margin: 0 0 20px;
+    }
+    & > .input-text{
+        margin-bottom: 20px;
+    }
+    & > button{
+        color: white;
+        padding: 3px 12px;
+        height: 10rem;
+        font-size: 4rem;
+        margin: 0 0 0 auto;
+        min-height: 10rem;
+        border-radius: 1rem;
+        color: white;
+        font-size: 4rem;
+        font-weight: 600;
+        background-color: $color-dark-blue;
+        text-align: center;
+    }
+}
+
+
+.params-editor{
+    background: $color-dark-blue;
+    border-radius: 1rem;
+    margin: 50px 0;
+    width:100%;
+    padding: 20px;
+    @include card();
+    @include medium-shadow();
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    @media screen and (min-width : $medium){
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media screen and (min-width : $large){
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    &__url{
+        grid-column: span 1;
+        @media screen and (min-width : $medium){
+            grid-column: span 3;
+        }
+        @media screen and (min-width : $large){
+            grid-column: span 4;
+        }
+    }
+    &__title{
+        grid-column: span 1;
+        @media screen and (min-width : $medium){
+            grid-column: span 2;
+        }
+        @media screen and (min-width : $large){
+            grid-column: span 2;
+        }
+    }
+}
+
+
+select{
+    width: 100%;
+    height: 10rem;
+    position: relative;
+    border-radius: 0.5rem;
+    border: 1px solid ;
+    background-color: transparent;
+    padding: 0 4rem ;
+    font-size: 4rem;
+    color: $color-dark-blue;
+}
+.input-text{
+    width: 100%;
+    height: 10rem;
+    position: relative;
+    border-radius: 0.5rem;
+    border: 1px solid ;
+    color: $color-dark-blue;
+    & > label {
+        display: block;
+        font-size: 4rem;
+        position: absolute;
+        color: inherit;
+        top: 50%;
+        transform: translate(3rem,-50%);
+        background: $color-white;
+        transition: all .1s ease;
+        padding: 1px 3px;
+    }
+    & > input:focus + label,
+    &.filed > label{
+        transform: translate(3rem,-130%);
+    }
+   
+    &.dark{
+        color:  white;
+        & > label {
+            background: $color-dark-blue;
+        }
+    } 
+    & > input{
+        background: transparent;
+        outline: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left:0;
+        bottom:0;
+        width: 100%;
+        color: inherit;
+        padding: 3rem;
+        font-size: 4rem;
+        border: none;
+    }  
+}
+
+
+section.title{
+    @media screen and (max-width : $medium){
+        display:none;
+    }
+}
+
+.toggle{
+    margin : 0 10px 0 0;
+    .input{
+        display:none;
+    }
+    .input:checked + .toggle__bar{
+        background: #2EC9B5;
+        &:after{
+            left: 100%;
+            background: #2EC9B5;
+            transform: translate(-100%,-50%);
+        }
+    }
+    .toggle__bar{
+        position: relative;        
+        display: block;
+        height:  10px;
+        width: 45px;
+        background: #dddddd;
+        border-radius: 5px;
+        transition: all .2s ease-in-out;
+        &:after{
+            top: 50%;
+            left: 0%;
+            content : '';
+            position: absolute;
+            display: block;
+            height : 20px;
+            width: 20px;
+            background: #cccccc;
+            border-radius: 50%;
+            transform: translate(0%,-50%);
+            transition: all .2s ease-in-out;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+    }
+}
+
+.flex-h{
+    display: flex;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+.project-card{
+    position: relative;
+    width: 100%;
+    @include aspect(1 1.35);
+    flex-shrink: 0;
+    
+    overflow: hidden;
+    cursor: pointer;
+   
+    @include card--hover();
+    @media screen and (min-width : $medium){
+        $map : ($medium :250px ,$large : 300px);
+        @include poly-fluid-sizing('width',$map);
+    }
+    @media screen and (min-width : $large){
+        $map : ($large :250px ,1920px : 300px);
+        @include poly-fluid-sizing('width',$map);
+    }
+    img{
+        object-fit: cover;
+    }
+    .coming-soon {
+        top:0;
+        left:0;
+        right:0;
+        bottom: 30%;
+        z-index: 44;
+        background: rgba($color-dark-blue,0.7);
+        position: absolute;
+        font-size: 4rem;
+        opacity: 0;
+        display: flex;
+        align-items: center;
+        color: $color-white;
+        font-weight: 800;
+        transition: all .5s ease;
+        justify-content: center;
+    }
+    &__img{
+        position: absolute !important;
+        //position: relative;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 30%;
+        flex-grow: 3.7;
+        background-size: cover;
+        background-position: center;
+    }
+    &:hover{
+        h2{
+            @media screen and (min-width : $medium){
+                //color: $color-accent;
+            }
+        }
+        .coming-soon{
+            opacity: 1;
+        }
+    }
+    &__infos{
+        position: absolute;
+        flex-grow: 1;
+        z-index: 999;
+        padding: 0 10rem ;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        bottom: 0;
+        left:0;
+        right:0;
+        top:68%;
+        background: $color-white;
+        @media screen and (min-width : $small){
+            $map : ($small :30px ,$medium : 50px);
+            @include poly-fluid-sizing('padding-left',$map);
+        }
+        @media screen and (min-width : $medium){
+            $map : ($medium :22px ,$large : 30px);
+            @include poly-fluid-sizing('padding-left',$map);
+        }
+        @media screen and (min-width : $large){
+            $map : ($large :25px ,1920px : 40px);
+            @include poly-fluid-sizing('padding-left',$map);
+        }
+        h4{
+            font-size: 3.5rem;
+            color: $color-medium-grey;
+            text-transform: uppercase;
+            margin: 0 0 3px;
+            font-weight: 600;
+            @media screen and (max-width : $small){
+                $map : (0 :10px ,$small : 18px);
+                @include poly-fluid-sizing('font-size',$map);
+            }
+            @media screen and (min-width : $small){
+                $map : ($small :20px ,$medium : 30px);
+                @include poly-fluid-sizing('font-size',$map);
+            }
+            @media screen and (min-width : $medium){
+                $map : ($medium :15px ,$large : 18px);
+                @include poly-fluid-sizing('font-size',$map);
+            }
+            @media screen and (min-width : $large){
+                $map : ($large :14px ,1920px : 16px);
+                @include poly-fluid-sizing('font-size',$map);
+            }
+        }
+        
+        h2{
+            @media screen and (max-width : $small){
+                $map : (0 :12px ,$small : 20px);
+                @include poly-fluid-sizing('font-size',$map);
+            }
+            @media screen and (min-width : $small){
+                $map : ($small :20px ,$medium : 30px);
+                @include poly-fluid-sizing('font-size',$map);
+            }
+            @media screen and (min-width : $medium){
+                $map : ($medium :15px ,$large : 20px);
+                @include poly-fluid-sizing('font-size',$map);
+            }
+            @media screen and (min-width : $large){
+                $map : ($large :20px ,1920px : 20px);
+                @include poly-fluid-sizing('font-size',$map);
+            }
+            color: $color-dark-blue;
+            font-weight: 800;
+            transition: all .2s;
+        }
+    }
+    &__content{
+        z-index: 55;
+        height: 100%;
+        @include full-absolute();
+        display: flex;
+        flex-direction: column;
+    }
+}
+

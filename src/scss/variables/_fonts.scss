@@ -1,0 +1,51 @@
+/*
+ * All the fonts of the website
+ *
+*/
+
+@font-face{
+    font-family: 'hk-grotesk';
+    font-weight: 200;
+    src: url('/fonts/HKGrotesk-Light.woff2');
+    font-display: swap;
+}
+@font-face{
+    font-family: 'hk-grotesk';
+    font-weight: 400;
+    src: url('/fonts/HKGrotesk-Regular.woff2');
+    font-display: swap;
+}
+@font-face{
+    font-family: 'hk-grotesk';
+    font-weight: 600;
+    src: url('/fonts/HKGrotesk-Medium.woff2');
+    font-display: swap;
+}
+@font-face{
+    font-family: 'hk-grotesk';
+    font-weight: 700;
+    src: url('/fonts/HKGrotesk-SemiBold.woff2');
+    font-display: swap;
+}
+@font-face{
+    font-family: 'hk-grotesk';
+    font-weight: 800;
+    src: url('/fonts/HKGrotesk-Bold.woff2');
+    font-display: swap;
+}
+
+
+
+
+// Typefaces
+$hk: 'hk-grotesk',"Helvetica", "Arial", sans-serif;
+
+// text sizes
+$text-x-large: 3.4rem;
+$text-large: 2.4rem;
+$text-medium: 2rem;
+$text-small: 1.8rem;
+$text-x-small: 1.5rem;
+
+// Global
+$primary-font: $hk;

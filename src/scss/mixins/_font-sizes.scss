@@ -1,0 +1,78 @@
+
+/// ui text sizes
+
+
+
+
+
+
+@mixin heading-jumper() {
+  
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #D0D4E2;
+  margin-bottom: 5px;
+  @media screen and (min-width : $medium){
+    font-size: 4rem;
+    font-weight: 700;
+  }
+}
+@mixin heading-large() {
+  
+  color : $color-dark-blue;
+  font-size: 8rem;
+  font-weight: 800;
+  line-height: 1.2;
+  @media screen and (min-width : $medium){
+    font-size: 12rem;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+}
+@mixin heading-medium() {
+  font-size: 6rem;
+  color : $color-dark-blue;
+  font-weight: 800;
+  line-height: 1;
+  @media screen and (min-width : $medium){
+    font-size: 8rem;
+    font-weight: 800;
+    line-height: 1;
+  }
+}
+@mixin heading-small() {
+  font-size: 5rem;
+  color : $color-dark-blue;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 4px;
+  @media screen and (min-width : $medium){
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1;
+  }
+}
+
+
+@mixin text-medium() {
+  font-size: 4.5rem;
+  font-family: "Lora",serif;
+  color :  $color-dimmed-grey;
+  line-height: 1.9;
+  @media screen and (min-width : $medium){
+    font-size: 4rem;
+    line-height: 1.9;
+  }
+}
+
+
+@mixin heading-section() {
+  
+  color : $color-dark-blue;
+  font-size: 11rem;
+  font-weight: 800;
+  line-height: 1.2;
+
+}
