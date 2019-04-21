@@ -36,19 +36,19 @@ module.exports = {
         '/projects/trees'
       ],
       //useRenderEvent: true,
-      headless: false,
+      headless: true,
       onlyProduction: true,
-      postProcess: route => {
-        // Defer scripts and tell Vue it's been server rendered to trigger hydration
-        route.html = route.html
-          .replace(/<script (.*?)>/g, '<script $1 defer>')
-          .replace('id="app"', 'id="app" data-server-rendered="true"');
-        return route;
-      }
+      // postProcess: route => {
+      //   // Defer scripts and tell Vue it's been server rendered to trigger hydration
+      //   route.html = route.html
+      //     .replace(/<script (.*?)>/g, '<script $1 defer>')
+      //     .replace('id="app"', 'id="app" data-server-rendered="true"');
+      //   return route;
+      // }
     },
     renderer: new Renderer({
       renderAfterTime: 20000, // Wait 5 seconds.
-      headless: false // Display the browser window when rendering. Useful for debugging.
+      headless: true // Display the browser window when rendering. Useful for debugging.
     })
   }
 }
