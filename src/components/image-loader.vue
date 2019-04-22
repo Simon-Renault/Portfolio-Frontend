@@ -2,7 +2,7 @@
 <template>
   <div :class="{'box-image' : true ,'placeholder':true, 'loaded' :loaded}" :style="styles">
     <transition name="fade" v-if="placeholder">
-      <img v-show="loadedPlaceholder" v-on:load="onLoadedPlaceholder" :src="placeholder"  :style="styles" class="blured" :class="{'loaded': loaded}">
+      <img v-show="loadedPlaceholder" v-on:load="onLoadedPlaceholder" :src="placeholder"  :alt="alt" :style="styles" class="blured" :class="{'loaded': loaded}">
     </transition>
     <transition name="fade">
       <img v-show="loaded" v-on:load="onLoaded" :src="src"  :alt="alt" :style="styles" >

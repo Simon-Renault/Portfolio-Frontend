@@ -27,15 +27,15 @@ div.page--wrapper
                                             a.inner-btn(href="/documents/CV_Simon-Renault.pdf" aria-label="French cv" ) French
                                         
                                 div.flex-h.b
-                                    a.button( href="mailto:simon.renault.pro@gmail.com" aria-label="Email me")
+                                    a.button( rel="noopener ,noreferrer" href="mailto:simon.renault.pro@gmail.com" aria-label="Email me")
                                         icon( name="mail" height="20" width="20" ) 
-                                    a.button( href="https://dribbble.com/Simon-Renault" aria-label="Dribble" target="_blank")
+                                    a.button( rel="noopener ,noreferrer" href="https://dribbble.com/Simon-Renault" aria-label="Dribble" target="_blank")
                                         icon( name="dribble" height="20" width="20" ).db
-                                    a.button( href="https://www.linkedin.com/in/simon-renault-pro/" aria-label="Linked In" target="_blank")
+                                    a.button( rel="noopener ,noreferrer" href="https://www.linkedin.com/in/simon-renault-pro/" aria-label="Linked In" target="_blank")
                                         icon( name="linkedin" height="20" width="20" ) 
-                                    a.button( href="https://www.instagram.com/simon.renault/" aria-label="Instagram" target="_blank")
+                                    a.button( rel="noopener ,noreferrer" href="https://www.instagram.com/simon.renault/" aria-label="Instagram" target="_blank")
                                         icon( name="instagram" height="20" width="20" ) 
-                                    a.button( href="https://github.com/Simon-Renault" aria-label="Github" target="_blank")
+                                    a.button( rel="noopener ,noreferrer" href="https://github.com/Simon-Renault" aria-label="Github" target="_blank")
                                         icon( name="github" height="20" width="20" ) 
                                     
             section.section( v-for="cat in cats" v-if="!cat.disabled")

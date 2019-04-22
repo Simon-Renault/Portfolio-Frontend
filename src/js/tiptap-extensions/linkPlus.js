@@ -25,7 +25,7 @@ export default class CustomLink extends Link {
       toDOM: node => ['a', {
         ...node.attrs,
         target: '__blank',
-        rel: '',
+        rel: 'noopener ,noreferrer"',
       }, 0],
     }
   }

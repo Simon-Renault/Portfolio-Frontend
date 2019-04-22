@@ -36,8 +36,9 @@ module.exports = {
         '/projects/trees'
       ],
       //useRenderEvent: true,
-      headless: true,
+      headless: false,
       onlyProduction: true,
+      renderAfterTime: 60000, // Wait 1min seconds.
       // postProcess: route => {
       //   // Defer scripts and tell Vue it's been server rendered to trigger hydration
       //   route.html = route.html
@@ -47,7 +48,7 @@ module.exports = {
       // }
     },
     renderer: new Renderer({
-      renderAfterTime: 20000, // Wait 5 seconds.
+      renderAfterTime: 60000, // Wait 5 seconds.
       headless: true // Display the browser window when rendering. Useful for debugging.
     })
   }
