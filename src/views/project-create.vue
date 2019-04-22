@@ -13,7 +13,7 @@
 
             section.page-header
                 .page-header__img(:style="{'background-color' : project.json.color}")
-                    image-loader(:src="'https://simon-renault.com/images/cover/large/'+project.json.url+'.jpg' || '' " width="100%" height="100%")
+                    image-loader(:src="'https://simon-renault.com/images/cover/large/'+project.json.image.src+'.jpg' || '' " width="100%" height="100%")
                 .page-header__overlay
                 .page-header__content
 

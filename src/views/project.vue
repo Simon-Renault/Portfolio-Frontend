@@ -13,7 +13,7 @@ main.page(itemscope itemtype="http://schema.org/Article")
 
         section.page-header
             .page-header__img(ref="img")
-                image-loader( :src="'https://simon-renault.com/images/cover/large/'+project.url+'.jpg'"  :alt="project.json.title + ' cover image'" width="100%" height="100%" )
+                image-loader( :src="'https://simon-renault.com/images/cover/large/'+project.json.image.src+'.jpg'"  :alt="project.json.title + ' cover image'" width="100%" height="100%" )
                 meta(itemprop="image" :content="project.json.image.src")
             .page-header__overlay
             .page-header__content
