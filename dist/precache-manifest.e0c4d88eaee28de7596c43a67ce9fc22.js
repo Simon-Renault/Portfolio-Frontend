@@ -136,12 +136,12 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
   },
   {
-    "revision": "c03c634d58e3ffc453109b6bfd7a0684",
-    "url": "/fonts/HKGrotesk-LightItalic.woff2"
-  },
-  {
     "revision": "e1e26c50793705393df2910e79224f84",
     "url": "/fonts/HKGrotesk-Light.woff2"
+  },
+  {
+    "revision": "c03c634d58e3ffc453109b6bfd7a0684",
+    "url": "/fonts/HKGrotesk-LightItalic.woff2"
   },
   {
     "revision": "84c56ea66fab1eeab8aca56f9d31108b",
@@ -156,32 +156,32 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-MediumItalic.woff2"
   },
   {
-    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
-    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
-  },
-  {
     "revision": "ec06f20b2b2071326a345be61c8700df",
     "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
+  },
+  {
+    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
+    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
   },
   {
     "revision": "e6ff4b85e51195961ab5920abb30da86",
     "url": "/images/cover/large/placeholder.jpg"
   },
   {
-    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
-    "url": "/fonts/HKGrotesk-SemiBold.woff2"
-  },
-  {
     "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
     "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
   },
   {
-    "revision": "956adc1ce35c401293c6230aeecbfc03",
-    "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
+    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
+    "url": "/fonts/HKGrotesk-SemiBold.woff2"
   },
   {
     "revision": "21bccaf73ead906343a3308d547058f5",
     "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
+  },
+  {
+    "revision": "956adc1ce35c401293c6230aeecbfc03",
+    "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
   },
   {
     "revision": "1bbb491bfe3f6f6fdbb7e5e6937ab18e",
