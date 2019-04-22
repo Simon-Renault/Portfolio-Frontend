@@ -13,7 +13,7 @@ main.page(itemscope itemtype="http://schema.org/Article")
 
         section.page-header
             .page-header__img(ref="img")
-                image-loader( :src="project.json.image.src" width="100%" height="100%" )
+                image-loader( :src="'https://simon-renault.com/images/large/'+project.url+'.jpg'"  :alt="project.json.title + ' cover image'" width="100%" height="100%" )
                 meta(itemprop="image" :content="project.json.image.src")
             .page-header__overlay
             .page-header__content
@@ -37,7 +37,7 @@ main.page(itemscope itemtype="http://schema.org/Article")
                 h2.section__title Other Projects
             .section__content.prevent-width
                 ul.grid.mobile-scroll(itemscope itemtype="http://www.schema.org/SiteNavigationElement")
-                    div.item( v-for="i in projects" )
+                    li.item( v-for="i in projects" )
                         v-project-card( :project="get_projects_from_id(i)" 
                                         :key="get_projects_from_id(i.url)")
 
@@ -66,12 +66,12 @@ export default {
     metaInfo() {
         return {
             title : "Simon Renault  - " + this.project.json.title ,
-             meta: [
+            meta: [
                 {property:"og:url"   ,      content:"https://simon-renault.com/projects/"+this.url},
                 {property :"og:image",      content: this.project.json.image.src },
                 {property:"og:title" ,      content:"Simon Renault  - " + this.project.json.title },
                 {property:"og:type"  ,      content:"article" },
-             ]
+            ]
         }
     },
     computed: {

@@ -11,6 +11,8 @@ module.exports = {
     }
   },
 
+ 
+
   baseUrl: undefined,
   outputDir: './dist',
   assetsDir: undefined,
@@ -20,7 +22,7 @@ module.exports = {
 
   /*chainWebpack: config => {
     config.output.chunkFilename(`js/[name].[id].[chunkhash:8].js`)
-  }*/
+  },*/
 
   pluginOptions: {
     prerenderSpa: {
@@ -36,16 +38,16 @@ module.exports = {
         '/projects/trees'
       ],
       //useRenderEvent: true,
-      headless: false,
+      headless: true,
       onlyProduction: true,
       renderAfterTime: 60000, // Wait 1min seconds.
-      // postProcess: route => {
-      //   // Defer scripts and tell Vue it's been server rendered to trigger hydration
-      //   route.html = route.html
-      //     .replace(/<script (.*?)>/g, '<script $1 defer>')
-      //     .replace('id="app"', 'id="app" data-server-rendered="true"');
-      //   return route;
-      // }
+      postProcess: route => {
+        // Defer scripts and tell Vue it's been server rendered to trigger hydration
+        route.html = route.html
+          .replace(/<script (.*?)>/g, '<script $1 defer>')
+          .replace('id="app"', 'id="app" data-server-rendered="true"')
+        return route;
+      }
     },
     renderer: new Renderer({
       renderAfterTime: 60000, // Wait 5 seconds.

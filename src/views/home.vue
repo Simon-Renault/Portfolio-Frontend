@@ -73,6 +73,7 @@ div.page--wrapper
 
 <script>
 import {mapState, mapGetters,mapMutations} from 'vuex'
+
 /* import all icons*/
 import '@/compiled-icons'
 
