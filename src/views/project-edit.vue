@@ -13,7 +13,7 @@
 
             section.page-header
                 .page-header__img
-                    image-loader( :src="'https://simon-renault.com/images/large/'+project.url+'.jpg' || '' "  width="100%" height="100%")
+                    image-loader( :src="'https://simon-renault.com/images/cover/large/'+project.url+'.jpg' || '' "  width="100%" height="100%")
                 .page-header__overlay
                 .page-header__content
                     button.button.back(@click="$router.push('/')" :class="{ light : project.json.isLight == 'true'}")

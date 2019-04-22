@@ -1,6 +1,6 @@
 <template lang="pug">
 .app#app
-    router-link(to="/").sidebar
+    router-link(to="/" aria-label="back home" ).sidebar
         .top
 
     div(:key="$route.params.id || Math.random()" ).page--wrapper

@@ -5,7 +5,7 @@ li
         .project-card__content()
             div.coming-soon(v-if="project.json.isPublished === 'soon'") 
                 span coming soon
-            image-loader( :src="'https://simon-renault.com/images/small/'+project.url+'.jpg'" :alt="project.json.title + 'cover image'" ).project-card__img
+            image-loader( :src="'https://simon-renault.com/images/cover/small/'+project.url+'.jpg'" :alt="project.json.title + 'cover image'" ).project-card__img
                
             .project-card__infos
                 div
