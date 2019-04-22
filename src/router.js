@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import home from '@/views/home.vue'
 
 Vue.use(Router)
 
@@ -12,11 +13,11 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: import(/* webpackChunkName: 'home' */ './views/home.vue'),
+      component: home,
     },
     {
       path: '*',
-      component : () => import(/* webpackChunkName: '404' */ '@/views/404.vue'),
+      component : () => import( /* webpackChunkName: '404' */ '@/views/404.vue'),
     },
     {
       path : '/projects',
@@ -36,7 +37,7 @@ export default new Router({
     },
     {
       path :'/create/:cat',
-      component : () => import(/* webpackChunkName: 'create-project' */ '@/views/project-create.vue')
+      component : () => import( /* webpackChunkName: 'create-project' */ '@/views/project-create.vue')
     }
   ]
 })
