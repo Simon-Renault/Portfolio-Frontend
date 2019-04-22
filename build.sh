@@ -16,6 +16,12 @@ yarn run build
 git add .
 git commit -m "new build"
 git push
+
+spawn ssh simonrencp@ssh.cluster026.hosting.ovh.net -p 22
+expect "assword:"
+send "EOS100d147852\r"
+interact
+
 echo -e "${GREEN} new build live on git"
 
 
