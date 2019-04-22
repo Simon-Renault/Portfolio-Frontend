@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "5261fcb3ea1299885da5bd9026abcce9",
-    "url": "/fonts/HKGrotesk-Regular.woff2"
+    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
+    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
   },
   {
     "revision": "b53a82a970b7050ed0d1fa3269301310",
@@ -76,16 +76,16 @@ self.__precacheManifest = [
     "url": "/images/starlight/starlight-trial.png"
   },
   {
+    "revision": "ffc3d18af5e6ab5fe1270c0cae0b78d4",
+    "url": "/sitempa.xml"
+  },
+  {
     "revision": "ff6602b5cb810f3f5215d4157171ba57",
     "url": "/install.sh"
   },
   {
     "revision": "218e61a61bf45f8b5dbd2bd8bb3e9348",
     "url": "/robot.txt"
-  },
-  {
-    "revision": "ffc3d18af5e6ab5fe1270c0cae0b78d4",
-    "url": "/sitempa.xml"
   },
   {
     "revision": "95ec79d81eb9753241fff8159b5db6be",
@@ -120,64 +120,8 @@ self.__precacheManifest = [
     "url": "/images/chaos/chaos-team.jpg"
   },
   {
-    "revision": "f5118a7995e6740f4e8193cdac7dd772",
-    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
-  },
-  {
     "revision": "e1e26c50793705393df2910e79224f84",
     "url": "/fonts/HKGrotesk-Light.woff2"
-  },
-  {
-    "revision": "c03c634d58e3ffc453109b6bfd7a0684",
-    "url": "/fonts/HKGrotesk-LightItalic.woff2"
-  },
-  {
-    "revision": "84c56ea66fab1eeab8aca56f9d31108b",
-    "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
-  },
-  {
-    "revision": "be29113842f0546046810cc7182953a3",
-    "url": "/fonts/HKGrotesk-Medium.woff2"
-  },
-  {
-    "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
-    "url": "/fonts/HKGrotesk-MediumItalic.woff2"
-  },
-  {
-    "revision": "ec06f20b2b2071326a345be61c8700df",
-    "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
-  },
-  {
-    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
-    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
-  },
-  {
-    "revision": "5d8705fe1d8fc40e796f2e123d40c098",
-    "url": "/fonts/HKGrotesk-Italic.woff2"
-  },
-  {
-    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
-    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
-  },
-  {
-    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
-    "url": "/fonts/HKGrotesk-SemiBold.woff2"
-  },
-  {
-    "revision": "21bccaf73ead906343a3308d547058f5",
-    "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
-  },
-  {
-    "revision": "956adc1ce35c401293c6230aeecbfc03",
-    "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
-  },
-  {
-    "revision": "1bbb491bfe3f6f6fdbb7e5e6937ab18e",
-    "url": "/fonts/HKGrotesk-SemiBoldLegacyItalic.woff2"
-  },
-  {
-    "revision": "f104d4e00ef679141ae6460d2ec01dcf",
-    "url": "/images/chaos/chaos-vr.jpg"
   },
   {
     "revision": "fd366a229ea19b8d7bd59e8ae68349a5",
@@ -188,16 +132,52 @@ self.__precacheManifest = [
     "url": "/images/mci/mci-all.jpg"
   },
   {
-    "revision": "ef79801b1c681138677d037351f0165f",
-    "url": "/images/chaos/chaos-work.jpg"
+    "revision": "84c56ea66fab1eeab8aca56f9d31108b",
+    "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
+  },
+  {
+    "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
+    "url": "/fonts/HKGrotesk-MediumItalic.woff2"
+  },
+  {
+    "revision": "5261fcb3ea1299885da5bd9026abcce9",
+    "url": "/fonts/HKGrotesk-Regular.woff2"
+  },
+  {
+    "revision": "be29113842f0546046810cc7182953a3",
+    "url": "/fonts/HKGrotesk-Medium.woff2"
+  },
+  {
+    "revision": "ec06f20b2b2071326a345be61c8700df",
+    "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
   },
   {
     "revision": "e1dc629fc5a50bb9599fe78c7652644b",
     "url": "/images/cover/large/starlight.png"
   },
   {
-    "revision": "a2f1aa89237d90fecd3434be6452b706",
-    "url": "/images/chaos/chaos-night.jpg"
+    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
+    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
+  },
+  {
+    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
+    "url": "/fonts/HKGrotesk-SemiBold.woff2"
+  },
+  {
+    "revision": "956adc1ce35c401293c6230aeecbfc03",
+    "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
+  },
+  {
+    "revision": "21bccaf73ead906343a3308d547058f5",
+    "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
+  },
+  {
+    "revision": "1bbb491bfe3f6f6fdbb7e5e6937ab18e",
+    "url": "/fonts/HKGrotesk-SemiBoldLegacyItalic.woff2"
+  },
+  {
+    "revision": "f104d4e00ef679141ae6460d2ec01dcf",
+    "url": "/images/chaos/chaos-vr.jpg"
   },
   {
     "revision": "ffe46e7a282212358136cfe382c23b0f",
@@ -208,28 +188,48 @@ self.__precacheManifest = [
     "url": "/images/asie-online/asie-online-1.jpg"
   },
   {
-    "revision": "be28321acab51f81e1df261b553ed7b2",
-    "url": "/images/asie-online/asie-online-main.jpg"
-  },
-  {
-    "revision": "f5022dd39e66f8795cc8c68b1683461a",
-    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
-  },
-  {
-    "revision": "760069b63ddbca5bad028753268dc5d4",
-    "url": "/images/chaos/chaos-controler.jpg"
+    "revision": "ef79801b1c681138677d037351f0165f",
+    "url": "/images/chaos/chaos-work.jpg"
   },
   {
     "revision": "922c8c89dd3e47d1a886d726926b6946",
     "url": "/images/asie-online/asie-online-form.jpg"
   },
   {
-    "revision": "38e47c015776f6901cdf29f2ea77a2b5",
-    "url": "/images/cover/large/portfolio.jpg"
+    "revision": "a2f1aa89237d90fecd3434be6452b706",
+    "url": "/images/chaos/chaos-night.jpg"
+  },
+  {
+    "revision": "83530f0056115b083e8d41d665c59d7b",
+    "url": "/images/mci/mci-home.jpg"
   },
   {
     "revision": "83530f0056115b083e8d41d665c59d7b",
     "url": "/images/cover/large/mci.jpg"
+  },
+  {
+    "revision": "be28321acab51f81e1df261b553ed7b2",
+    "url": "/images/asie-online/asie-online-main.jpg"
+  },
+  {
+    "revision": "c03c634d58e3ffc453109b6bfd7a0684",
+    "url": "/fonts/HKGrotesk-LightItalic.woff2"
+  },
+  {
+    "revision": "760069b63ddbca5bad028753268dc5d4",
+    "url": "/images/chaos/chaos-controler.jpg"
+  },
+  {
+    "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
+    "url": "/images/chaos/chaos-main.jpg"
+  },
+  {
+    "revision": "38e47c015776f6901cdf29f2ea77a2b5",
+    "url": "/images/cover/large/portfolio.jpg"
+  },
+  {
+    "revision": "d304356d76a0d513ea8421c18177cda5",
+    "url": "/images/asie-online/asie-online-mobile-desktop.jpg"
   },
   {
     "revision": "0a4b42af7842d5cd85abe82cf202fe30",
@@ -240,36 +240,24 @@ self.__precacheManifest = [
     "url": "/images/asie-online/asie-online-test.jpg"
   },
   {
-    "revision": "d304356d76a0d513ea8421c18177cda5",
-    "url": "/images/asie-online/asie-online-mobile-desktop.jpg"
-  },
-  {
-    "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
-    "url": "/images/chaos/chaos-main.jpg"
-  },
-  {
     "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
     "url": "/images/cover/large/chaos.jpg"
   },
   {
-    "revision": "83530f0056115b083e8d41d665c59d7b",
-    "url": "/images/mci/mci-home.jpg"
+    "revision": "cdcf1c6074f15dfec2ad461e4c1db60a",
+    "url": "/fonts/HKGrotesk-BoldItalic.woff2"
   },
   {
-    "revision": "5c1131895f905bd387b5",
-    "url": "/css/home.810d701a.css"
+    "revision": "1ab2091a68b75e45f867",
+    "url": "/css/404.8e4faa22.css"
   },
   {
     "revision": "bf41539e9cef8c669c75",
     "url": "/css/project.e8278c4f.css"
   },
   {
-    "revision": "58632d5196088becd1047ceed6a909be",
-    "url": "/documents/CV_Simon-Renault.pdf"
-  },
-  {
-    "revision": "cdcf1c6074f15dfec2ad461e4c1db60a",
-    "url": "/fonts/HKGrotesk-BoldItalic.woff2"
+    "revision": "f5118a7995e6740f4e8193cdac7dd772",
+    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
   },
   {
     "revision": "f579c94fe056bbab12dc3327e4babdfb",
@@ -284,6 +272,22 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-BoldLegacy.woff2"
   },
   {
+    "revision": "5d8705fe1d8fc40e796f2e123d40c098",
+    "url": "/fonts/HKGrotesk-Italic.woff2"
+  },
+  {
+    "revision": "58632d5196088becd1047ceed6a909be",
+    "url": "/documents/CV_Simon-Renault.pdf"
+  },
+  {
+    "revision": "5c1131895f905bd387b5",
+    "url": "/css/home.810d701a.css"
+  },
+  {
+    "revision": "f5022dd39e66f8795cc8c68b1683461a",
+    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
+  },
+  {
     "revision": "ae6e1d1782d281bbae66",
     "url": "/css/edit.10f3a352.css"
   },
@@ -294,10 +298,6 @@ self.__precacheManifest = [
   {
     "revision": "124268e0fcb571663925",
     "url": "/css/app.48f0d01e.css"
-  },
-  {
-    "revision": "1ab2091a68b75e45f867",
-    "url": "/css/404.8e4faa22.css"
   },
   {
     "revision": "41bcf6419d31d72b8be9fdefc28bdbd1",
