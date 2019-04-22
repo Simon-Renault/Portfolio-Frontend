@@ -17,27 +17,27 @@ export default new Router({
     },
     {
       path: '*',
-      component : () => import( /* webpackChunkName: '404' */ '@/views/404.vue'),
+      component : () => import(  '@/views/404.vue'),
     },
     {
       path : '/projects',
-      component : () => import(/* webpackChunkName: '404' */ '@/views/404.vue'),
+      component : () => import( '@/views/404.vue'),
     },
     {
       path :'/projects/:id',
-      component : () => import(/* webpackChunkName: 'project' */ '@/views/project.vue'),
+      component : () => import( '@/views/project.vue'),
     },
     {
       path :'/projects/:id/edit',
-      component : () => import(/* webpackChunkName: 'edit' */ '@/views/project-edit.vue')
+      component : () => import( '@/views/project-edit.vue')
     },
     {
       path :'/login',
-      component : () => import(/* webpackChunkName: 'login' */ '@/views/login.vue')
+      component : () => import( '@/views/login.vue')
     },
     {
       path :'/create/:cat',
-      component : () => import( /* webpackChunkName: 'create-project' */ '@/views/project-create.vue')
+      component : () => import( '@/views/project-create.vue')
     }
   ]
 })
