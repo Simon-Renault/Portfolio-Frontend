@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
-    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
+    "revision": "5261fcb3ea1299885da5bd9026abcce9",
+    "url": "/fonts/HKGrotesk-Regular.woff2"
   },
   {
     "revision": "b53a82a970b7050ed0d1fa3269301310",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/images/starlight/starlight-all.png"
   },
   {
-    "revision": "ff640bea448c49246730",
+    "revision": "12c06c51c601f8882f40",
     "url": "/js/chunk-46e23e93.94a666a6.js"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/images/starlight/starlight-big.png"
   },
   {
-    "revision": "74a8038e3cea5f69fc30",
+    "revision": "68110fc9e78d507f106c",
     "url": "/js/chunk-53351e75.7305e62c.js"
   },
   {
@@ -88,12 +88,12 @@ self.__precacheManifest = [
     "url": "/img/header.png"
   },
   {
-    "revision": "4da702218e8e040a4c5a845a7581e359",
-    "url": "/img/footer.svg"
-  },
-  {
     "revision": "95ec79d81eb9753241fff8159b5db6be",
     "url": "/img/footer-mobile.svg"
+  },
+  {
+    "revision": "4da702218e8e040a4c5a845a7581e359",
+    "url": "/img/footer.svg"
   },
   {
     "revision": "2a6eae5dad83611292e9ba37c0f7a9b3",
@@ -108,8 +108,8 @@ self.__precacheManifest = [
     "url": "/img/header.svg"
   },
   {
-    "revision": "7028c95da162fe7ca997",
-    "url": "/js/app.e99b1f91.js"
+    "revision": "ac26c39d03e9e15c509a",
+    "url": "/js/app.2ec97aea.js"
   },
   {
     "revision": "a2f1aa89237d90fecd3434be6452b706",
@@ -124,16 +124,16 @@ self.__precacheManifest = [
     "url": "/images/mci/mci-all.jpg"
   },
   {
-    "revision": "f5118a7995e6740f4e8193cdac7dd772",
-    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
+    "revision": "f5022dd39e66f8795cc8c68b1683461a",
+    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
   },
   {
     "revision": "5d8705fe1d8fc40e796f2e123d40c098",
     "url": "/fonts/HKGrotesk-Italic.woff2"
   },
   {
-    "revision": "f5022dd39e66f8795cc8c68b1683461a",
-    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
+    "revision": "f5118a7995e6740f4e8193cdac7dd772",
+    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
   },
   {
     "revision": "e1e26c50793705393df2910e79224f84",
@@ -160,28 +160,28 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
   },
   {
-    "revision": "5261fcb3ea1299885da5bd9026abcce9",
-    "url": "/fonts/HKGrotesk-Regular.woff2"
+    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
+    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
   },
   {
     "revision": "e6ff4b85e51195961ab5920abb30da86",
     "url": "/images/cover/large/placeholder.jpg"
   },
   {
-    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
-    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
-  },
-  {
     "revision": "bc4d56adf65a5c59474a79e987f4b04b",
     "url": "/fonts/HKGrotesk-SemiBold.woff2"
   },
   {
-    "revision": "21bccaf73ead906343a3308d547058f5",
-    "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
+    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
+    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
   },
   {
     "revision": "956adc1ce35c401293c6230aeecbfc03",
     "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
+  },
+  {
+    "revision": "21bccaf73ead906343a3308d547058f5",
+    "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
   },
   {
     "revision": "1bbb491bfe3f6f6fdbb7e5e6937ab18e",
@@ -248,12 +248,12 @@ self.__precacheManifest = [
     "url": "/images/asie-online/asie-online-1.jpg"
   },
   {
-    "revision": "38e47c015776f6901cdf29f2ea77a2b5",
-    "url": "/images/cover/large/portfolio.jpg"
-  },
-  {
     "revision": "922c8c89dd3e47d1a886d726926b6946",
     "url": "/images/asie-online/asie-online-form.jpg"
+  },
+  {
+    "revision": "38e47c015776f6901cdf29f2ea77a2b5",
+    "url": "/images/cover/large/portfolio.jpg"
   },
   {
     "revision": "0a4b42af7842d5cd85abe82cf202fe30",
@@ -269,11 +269,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
-    "url": "/images/chaos/chaos-main.jpg"
+    "url": "/images/cover/large/chaos.jpg"
   },
   {
     "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
-    "url": "/images/cover/large/chaos.jpg"
+    "url": "/images/chaos/chaos-main.jpg"
   },
   {
     "revision": "83530f0056115b083e8d41d665c59d7b",
@@ -288,7 +288,7 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-Bold.woff2"
   },
   {
-    "revision": "7028c95da162fe7ca997",
+    "revision": "ac26c39d03e9e15c509a",
     "url": "/css/app.dba6dfa1.css"
   },
   {
@@ -312,15 +312,15 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-BoldItalic.woff2"
   },
   {
-    "revision": "74a8038e3cea5f69fc30",
-    "url": "/css/chunk-53351e75.2f30a487.css"
+    "revision": "68110fc9e78d507f106c",
+    "url": "/css/chunk-53351e75.5cb1791e.css"
   },
   {
-    "revision": "ff640bea448c49246730",
-    "url": "/css/chunk-46e23e93.c54e34bf.css"
+    "revision": "12c06c51c601f8882f40",
+    "url": "/css/chunk-46e23e93.e2c86d80.css"
   },
   {
-    "revision": "2bd7668c4840767d313c58e9974cdeee",
+    "revision": "8d0c474fc51357c5bc5a8c04f196e7f5",
     "url": "/app.html"
   },
   {

@@ -129,6 +129,7 @@
             margin: 0 0 0 7rem;
             padding: 0 0 0 40px;
             margin: 4px 0;
+            font-size: 4.5rem;
             &:before{
      
                 position: absolute;
@@ -155,6 +156,7 @@
 
         counter-reset: ol;
         & > li {
+            font-size: 4.5rem;
             position: relative;
             margin: 0 0 0 7rem;
             padding: 0 0 0 50px;
