@@ -23,8 +23,8 @@ div.page--wrapper
                                         span Resume
                                         icon.white( name="download" height="20" width="20" ) 
                                         div.inner-resume 
-                                            a.inner-btn(href="/documents/CV_Simon-Renault.pdf" aria-label="English cv") English
-                                            a.inner-btn(href="/documents/CV_Simon-Renault.pdf" aria-label="French cv" ) French
+                                            a.inner-btn(href="/documents/CV-Simon-Renault–EN.pdf" aria-label="English cv") English
+                                            a.inner-btn(href="/documents/CV-Simon-Renault–FR.pdf" aria-label="French cv" ) French
                                         
                                 div.flex-h.b
                                     a.button( rel="noopener ,noreferrer" href="mailto:simon.renault.pro@gmail.com" aria-label="Email me")
