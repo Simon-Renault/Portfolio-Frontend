@@ -85,7 +85,15 @@
                             span H3
                         button( class="menubar__button"
                                 @click="commands.heading({ level: 4 })" ) 
-                            span H4
+                            span H45
+
+                        button( class="menubar__button"
+                                @click="commands.bullet_list" ) 
+                            icon( name="ul" height="15" width="15" ) 
+
+                        button( class="menubar__button"
+                                @click="commands.ordered_list" ) 
+                            icon( name="ol" height="15" width="15" ) 
 
                         button( class="menubar__button"
                                 @click="showImagePrompt(commands.image)" ) 
