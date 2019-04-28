@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/images/portfolio/portfolio-evolution.png"
   },
   {
-    "revision": "8c215b093f71b0b3635c",
+    "revision": "dfe3cedce102818d42bd",
     "url": "/js/chunk-46e23e93.f0482d5a.js"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/images/cover/large/quantify-self.jpg"
   },
   {
-    "revision": "63cf2705a6938e8d6afa",
+    "revision": "8b77ac773df6b7113030",
     "url": "/js/chunk-520d0db7.d057d3c2.js"
   },
   {
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/images/starlight/starlight-all.png"
   },
   {
-    "revision": "7b17b8931fde527a6eb8",
+    "revision": "1312d22ee9e7d08f0ee9",
     "url": "/js/chunk-6e18e988.ad38bc79.js"
   },
   {
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.7398524e.js"
   },
   {
-    "revision": "ff2aa6cac57c3a32510e3c3554a2b8ca",
+    "revision": "823160019444d91e8e7036f17babd53c",
     "url": "/index.html"
   },
   {
@@ -76,12 +76,12 @@ self.__precacheManifest = [
     "url": "/images/cover/small/starlight.jpg"
   },
   {
-    "revision": "95ec79d81eb9753241fff8159b5db6be",
-    "url": "/img/footer-mobile.svg"
-  },
-  {
     "revision": "4da702218e8e040a4c5a845a7581e359",
     "url": "/img/footer.svg"
+  },
+  {
+    "revision": "95ec79d81eb9753241fff8159b5db6be",
+    "url": "/img/footer-mobile.svg"
   },
   {
     "revision": "b4a58485677423b48ca571ae63d9e6de",
@@ -152,12 +152,12 @@ self.__precacheManifest = [
     "url": "/images/cover/small/noisy-city.jpg"
   },
   {
-    "revision": "d7831d466da9ae2ab25dfce3a7e1ee7a",
-    "url": "/img/header.svg"
-  },
-  {
     "revision": "5989b78a7d948cc182d0f2ed7e8cd808",
     "url": "/images/portfolio/portfolio-heatmap.jpg"
+  },
+  {
+    "revision": "d7831d466da9ae2ab25dfce3a7e1ee7a",
+    "url": "/img/header.svg"
   },
   {
     "revision": "554a5f985a04b672d85a1aed6d168e77",
@@ -180,8 +180,8 @@ self.__precacheManifest = [
     "url": "/install.sh"
   },
   {
-    "revision": "f6d401b2536cfec39fd7",
-    "url": "/js/app.f971b7db.js"
+    "revision": "47d4f0cc432ccfbe6d73",
+    "url": "/js/app.011de05f.js"
   },
   {
     "revision": "f5022dd39e66f8795cc8c68b1683461a",
@@ -216,16 +216,16 @@ self.__precacheManifest = [
     "url": "/images/chaos/chaos-work.jpg"
   },
   {
-    "revision": "d304356d76a0d513ea8421c18177cda5",
-    "url": "/images/asie-online/asie-online-mobile-desktop.jpg"
+    "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
+    "url": "/images/chaos/chaos-main.jpg"
   },
   {
     "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
     "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
   },
   {
-    "revision": "956adc1ce35c401293c6230aeecbfc03",
-    "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
+    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
+    "url": "/fonts/HKGrotesk-SemiBold.woff2"
   },
   {
     "revision": "5261fcb3ea1299885da5bd9026abcce9",
@@ -248,20 +248,20 @@ self.__precacheManifest = [
     "url": "/images/asie-online/asie-online-form.jpg"
   },
   {
-    "revision": "21bccaf73ead906343a3308d547058f5",
-    "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
+    "revision": "956adc1ce35c401293c6230aeecbfc03",
+    "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
   },
   {
     "revision": "a2f1aa89237d90fecd3434be6452b706",
     "url": "/images/chaos/chaos-night.jpg"
   },
   {
-    "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
-    "url": "/images/chaos/chaos-main.jpg"
+    "revision": "21bccaf73ead906343a3308d547058f5",
+    "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
   },
   {
-    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
-    "url": "/fonts/HKGrotesk-SemiBold.woff2"
+    "revision": "d304356d76a0d513ea8421c18177cda5",
+    "url": "/images/asie-online/asie-online-mobile-desktop.jpg"
   },
   {
     "revision": "be28321acab51f81e1df261b553ed7b2",
@@ -296,12 +296,12 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-Italic.woff2"
   },
   {
-    "revision": "c03c634d58e3ffc453109b6bfd7a0684",
-    "url": "/fonts/HKGrotesk-LightItalic.woff2"
-  },
-  {
     "revision": "e1e26c50793705393df2910e79224f84",
     "url": "/fonts/HKGrotesk-Light.woff2"
+  },
+  {
+    "revision": "c03c634d58e3ffc453109b6bfd7a0684",
+    "url": "/fonts/HKGrotesk-LightItalic.woff2"
   },
   {
     "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
@@ -320,8 +320,8 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
   },
   {
-    "revision": "7b17b8931fde527a6eb8",
-    "url": "/css/chunk-6e18e988.18344b99.css"
+    "revision": "1312d22ee9e7d08f0ee9",
+    "url": "/css/chunk-6e18e988.15c708a2.css"
   },
   {
     "revision": "a205d8769de60e9ac5ede86a6dac1560",
@@ -348,20 +348,20 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-BoldItalic.woff2"
   },
   {
-    "revision": "63cf2705a6938e8d6afa",
-    "url": "/css/chunk-520d0db7.672c0867.css"
+    "revision": "8b77ac773df6b7113030",
+    "url": "/css/chunk-520d0db7.5cb1791e.css"
   },
   {
-    "revision": "8c215b093f71b0b3635c",
-    "url": "/css/chunk-46e23e93.b183aaf9.css"
+    "revision": "dfe3cedce102818d42bd",
+    "url": "/css/chunk-46e23e93.e2c86d80.css"
   },
   {
     "revision": "60659db264cd2f930503",
     "url": "/css/chunk-242a7e62.a58bc9a7.css"
   },
   {
-    "revision": "f6d401b2536cfec39fd7",
-    "url": "/css/app.02584951.css"
+    "revision": "47d4f0cc432ccfbe6d73",
+    "url": "/css/app.497439e4.css"
   },
   {
     "revision": "d1f8d01b13d4f6bc3e18adf0a85a041d",
