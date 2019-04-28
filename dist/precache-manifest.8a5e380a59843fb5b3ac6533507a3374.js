@@ -28,23 +28,27 @@ self.__precacheManifest = [
     "url": "/images/portfolio/portfolio-evolution.png"
   },
   {
-    "revision": "090f25205d74223aea86",
-    "url": "/js/chunk-3eab3b07.ac11fc88.js"
+    "revision": "8c215b093f71b0b3635c",
+    "url": "/js/chunk-46e23e93.f0482d5a.js"
   },
   {
     "revision": "c6be3a38a227e126a823dc32ea41b745",
     "url": "/images/cover/large/quantify-self.jpg"
   },
   {
-    "revision": "28d789b7c91c84fe9001",
-    "url": "/js/chunk-46e23e93.900aeddc.js"
+    "revision": "63cf2705a6938e8d6afa",
+    "url": "/js/chunk-520d0db7.d057d3c2.js"
+  },
+  {
+    "revision": "47a2b8cf5d0f379a7e3a",
+    "url": "/js/chunk-680b9f81.c954d22d.js"
   },
   {
     "revision": "0d512832e5c425b7c069f3db9e0d9863",
     "url": "/images/starlight/starlight-all.png"
   },
   {
-    "revision": "1312d22ee9e7d08f0ee9",
+    "revision": "7b17b8931fde527a6eb8",
     "url": "/js/chunk-6e18e988.ad38bc79.js"
   },
   {
@@ -52,7 +56,7 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.7398524e.js"
   },
   {
-    "revision": "19a92d839bd91f70fc09eca4b61380d8",
+    "revision": "ff2aa6cac57c3a32510e3c3554a2b8ca",
     "url": "/index.html"
   },
   {
@@ -72,12 +76,12 @@ self.__precacheManifest = [
     "url": "/images/cover/small/starlight.jpg"
   },
   {
-    "revision": "4da702218e8e040a4c5a845a7581e359",
-    "url": "/img/footer.svg"
-  },
-  {
     "revision": "95ec79d81eb9753241fff8159b5db6be",
     "url": "/img/footer-mobile.svg"
+  },
+  {
+    "revision": "4da702218e8e040a4c5a845a7581e359",
+    "url": "/img/footer.svg"
   },
   {
     "revision": "b4a58485677423b48ca571ae63d9e6de",
@@ -164,20 +168,20 @@ self.__precacheManifest = [
     "url": "/img/intro.svg"
   },
   {
-    "revision": "ffc3d18af5e6ab5fe1270c0cae0b78d4",
-    "url": "/sitempa.xml"
-  },
-  {
     "revision": "218e61a61bf45f8b5dbd2bd8bb3e9348",
     "url": "/robots.txt"
+  },
+  {
+    "revision": "ffc3d18af5e6ab5fe1270c0cae0b78d4",
+    "url": "/sitempa.xml"
   },
   {
     "revision": "ff6602b5cb810f3f5215d4157171ba57",
     "url": "/install.sh"
   },
   {
-    "revision": "1b1abc68ac501ded7da4",
-    "url": "/js/app.d12cc2a3.js"
+    "revision": "f6d401b2536cfec39fd7",
+    "url": "/js/app.f971b7db.js"
   },
   {
     "revision": "f5022dd39e66f8795cc8c68b1683461a",
@@ -216,8 +220,8 @@ self.__precacheManifest = [
     "url": "/images/asie-online/asie-online-mobile-desktop.jpg"
   },
   {
-    "revision": "ec06f20b2b2071326a345be61c8700df",
-    "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
+    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
+    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
   },
   {
     "revision": "956adc1ce35c401293c6230aeecbfc03",
@@ -232,8 +236,8 @@ self.__precacheManifest = [
     "url": "/images/asie-online/asie-online-2.jpg"
   },
   {
-    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
-    "url": "/fonts/HKGrotesk-SemiBold.woff2"
+    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
+    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
   },
   {
     "revision": "b67b86579b8389b22e1f6688c1a5255c",
@@ -252,12 +256,12 @@ self.__precacheManifest = [
     "url": "/images/chaos/chaos-night.jpg"
   },
   {
-    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
-    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
-  },
-  {
     "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
     "url": "/images/chaos/chaos-main.jpg"
+  },
+  {
+    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
+    "url": "/fonts/HKGrotesk-SemiBold.woff2"
   },
   {
     "revision": "be28321acab51f81e1df261b553ed7b2",
@@ -276,16 +280,12 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-SemiBoldLegacyItalic.woff2"
   },
   {
-    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
-    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
+    "revision": "76e81abb8d24516d0335f3f859fb83e5",
+    "url": "/images/asie-online/asie-online-test.jpg"
   },
   {
     "revision": "0a4b42af7842d5cd85abe82cf202fe30",
     "url": "/images/chaos/chaos-debug.jpg"
-  },
-  {
-    "revision": "76e81abb8d24516d0335f3f859fb83e5",
-    "url": "/images/asie-online/asie-online-test.jpg"
   },
   {
     "revision": "6d9408bc6b177ce74bb2369794200164",
@@ -300,12 +300,16 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-LightItalic.woff2"
   },
   {
+    "revision": "e1e26c50793705393df2910e79224f84",
+    "url": "/fonts/HKGrotesk-Light.woff2"
+  },
+  {
     "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
     "url": "/fonts/HKGrotesk-MediumItalic.woff2"
   },
   {
-    "revision": "e1e26c50793705393df2910e79224f84",
-    "url": "/fonts/HKGrotesk-Light.woff2"
+    "revision": "ec06f20b2b2071326a345be61c8700df",
+    "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
   },
   {
     "revision": "be29113842f0546046810cc7182953a3",
@@ -316,8 +320,8 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
   },
   {
-    "revision": "1312d22ee9e7d08f0ee9",
-    "url": "/css/chunk-6e18e988.15c708a2.css"
+    "revision": "7b17b8931fde527a6eb8",
+    "url": "/css/chunk-6e18e988.18344b99.css"
   },
   {
     "revision": "a205d8769de60e9ac5ede86a6dac1560",
@@ -332,32 +336,32 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-Bold.woff2"
   },
   {
-    "revision": "f5118a7995e6740f4e8193cdac7dd772",
-    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
-  },
-  {
     "revision": "f579c94fe056bbab12dc3327e4babdfb",
     "url": "/favicon.png"
+  },
+  {
+    "revision": "f5118a7995e6740f4e8193cdac7dd772",
+    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
   },
   {
     "revision": "cdcf1c6074f15dfec2ad461e4c1db60a",
     "url": "/fonts/HKGrotesk-BoldItalic.woff2"
   },
   {
-    "revision": "28d789b7c91c84fe9001",
-    "url": "/css/chunk-46e23e93.e2c86d80.css"
+    "revision": "63cf2705a6938e8d6afa",
+    "url": "/css/chunk-520d0db7.672c0867.css"
   },
   {
-    "revision": "090f25205d74223aea86",
-    "url": "/css/chunk-3eab3b07.5cb1791e.css"
+    "revision": "8c215b093f71b0b3635c",
+    "url": "/css/chunk-46e23e93.b183aaf9.css"
   },
   {
     "revision": "60659db264cd2f930503",
     "url": "/css/chunk-242a7e62.a58bc9a7.css"
   },
   {
-    "revision": "1b1abc68ac501ded7da4",
-    "url": "/css/app.497439e4.css"
+    "revision": "f6d401b2536cfec39fd7",
+    "url": "/css/app.02584951.css"
   },
   {
     "revision": "d1f8d01b13d4f6bc3e18adf0a85a041d",

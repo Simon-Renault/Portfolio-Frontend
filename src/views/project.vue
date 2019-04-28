@@ -107,8 +107,8 @@ export default {
         }
     },
     methods : {
-        fetchContent(){
-            axios.get(`https://api.simon-renault.com/pages/${this.$route.params.id}`)
+        async fetchContent(){
+            await axios.get(`https://api.simon-renault.com/pages/${this.$route.params.id}`)
                 .then((res) => {
                     const data = res.data
                     this.renderContent(data)
@@ -120,6 +120,7 @@ export default {
             this.project.content = data.content
             this.isLoaded = true
             this.$nextTick(() => {
+
                 const images = [...this.$refs.text.querySelectorAll('.text-img'),...this.$refs.text.querySelectorAll('img')] || []
 
                 images.map((el) => {
@@ -153,6 +154,7 @@ export default {
     },
     mounted(){
         this.$nextTick(()=> {
+            this.fetchContent()
             // Setup a timer
             //let timeout;
             //const body = document.querySelector('html')
