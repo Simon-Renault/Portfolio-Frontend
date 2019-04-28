@@ -25,7 +25,7 @@ module.exports = {
   },*/
 
   pluginOptions: {
-    prerenderSpa: {
+    /*prerenderSpa: {
       registry: undefined,
       renderRoutes: [
         '/',
@@ -52,6 +52,6 @@ module.exports = {
     renderer: new Renderer({
       renderAfterTime: 60000, // Wait 5 seconds.
       headless: true // Display the browser window when rendering. Useful for debugging.
-    })
+    })*/
   }
 }
