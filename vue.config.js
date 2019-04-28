@@ -1,6 +1,6 @@
 const path = require('path')
-const PrerenderSPAPlugin = require('prerender-spa-plugin')
-const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
+//const PrerenderSPAPlugin = require('prerender-spa-plugin')
+//const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
 
 module.exports = {
   css: {
@@ -24,9 +24,9 @@ module.exports = {
     config.output.chunkFilename(`js/[name].[id].[chunkhash:8].js`)
   },*/
 
-  pluginOptions: {
+  //pluginOptions: {}
 
-    prerenderSpa: {
+    /*prerenderSpa: {
       registry: undefined,
       renderRoutes: [
         
@@ -46,6 +46,6 @@ module.exports = {
     renderer: new Renderer({
       renderAfterTime: 60000, // Wait 5 seconds.
       headless: true // Display the browser window when rendering. Useful for debugging.
-    })
-  }
+    })*/
+  
 }
