@@ -121,7 +121,9 @@ export default {
             this.$router.push('/create/0')
         },
         projectByCatId(id){
-            return this.projects.filter(project => project.json.cat == id)
+            return this.projects
+                        .filter(project => project.json.cat == id)
+                        .sort((a,b) => a.json.z - b.json.z)
         }
     },
 }

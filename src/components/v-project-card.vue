@@ -1,6 +1,6 @@
 <template lang="pug">
 
-li
+li.root
     router-link.project-card( :to="{path: path}" itemprop="url" :class="{'disabled' : project.json.isPublished === 'false' }" )
         .project-card__content()
             div.coming-soon(v-if="project.json.isPublished === 'soon'") 
@@ -62,8 +62,9 @@ a.button{
     z-index: 99;
 }
 
-li{
+.root{
     list-style: none;
+    display: flex;
 }
 
 </style>

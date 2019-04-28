@@ -25,6 +25,7 @@
                 v-input( id="fmp1" label="Image URL" v-model="project.json.image.src").params-editor__url
                 v-input( id="fmp2" label="Title" v-model="project.json.title").params-editor__title
                 v-input( id="fmp4" label="Exerpt" v-model="project.json.exerpt")
+                v-input( id="fmp4" label="Position" v-model="project.json.z" )
                 v-input( id="fmp5" label="url" :value="project.url" ref="url").params-editor__url
                 v-input( id="fmp3" label="color" v-model="project.json.color").params-editor__color
                 select(v-model="project.json.cat" )
@@ -250,6 +251,7 @@ export default {
                     alt : '',
                     className : ''
                 },
+                z : '',
                 classes : ['classic','tall','long','square'],
                 promise : null
             },
