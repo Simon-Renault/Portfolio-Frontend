@@ -25,17 +25,11 @@ module.exports = {
   },*/
 
   pluginOptions: {
-    /*prerenderSpa: {
+
+    prerenderSpa: {
       registry: undefined,
       renderRoutes: [
-        '/',
-        '/projects',
-        '/projects/mci',
-        '/projects/asie-online',
-        '/projects/portfolio-design',
-        '/projects/chaos',
-        '/projects/starlight',
-        '/projects/trees'
+        
       ],
       //useRenderEvent: true,
       headless: true,
@@ -52,6 +46,6 @@ module.exports = {
     renderer: new Renderer({
       renderAfterTime: 60000, // Wait 5 seconds.
       headless: true // Display the browser window when rendering. Useful for debugging.
-    })*/
+    })
   }
 }

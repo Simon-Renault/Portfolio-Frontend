@@ -37,24 +37,24 @@
 <IfModule mod_headers.c>
 
   <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz|svg)$">
-  Header set Cache-Control "max-age=31536000, public"
+    Header set Cache-Control "max-age=31536000, public"
   </FilesMatch>
 
   <FilesMatch "\.(js)$">
-  Header set Cache-Control "max-age=31536000, private"
+    Header set Cache-Control "max-age=31536000, private"
   </FilesMatch>
 
   <FilesMatch "\.(woff2)$">
-  Header set Cache-Control "max-age=315360000, private"
+    Header set Cache-Control "max-age=315360000, private"
   </FilesMatch>
  
   <filesMatch "\.(html)$">
-  Header set Cache-Control "max-age=28800, public"
+    Header set Cache-Control "max-age=-1, public"
   </filesMatch>
 
   # Disable caching for scripts and other dynamic files
   <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
-  Header unset Cache-Control
+    Header unset Cache-Control
   </FilesMatch>
 
 </IfModule>
@@ -93,4 +93,6 @@
   BrowserMatch ^Mozilla/4\.0[678] no-gzip
   BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
   Header append Vary User-Agent
+
+
 </IfModule>
