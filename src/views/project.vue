@@ -130,7 +130,7 @@ export default {
                     let data = {src,alt,className}
                     return new Vue({
                         template : ` 
-                                    <div>
+                                    <div class="figure">
                                         <image-loader :src="src" :alt="alt" :className="className" ></image-loader>
                                         <span class="alt">{{alt}}</span>
                                     </div>
@@ -190,9 +190,8 @@ export default {
         @include aspect(2.33 1);
     }
 }
-figure{
-    display:flex;
-    flex-direction: column;
+.figure{
+   position: relative;
 }
 .back-to-home{
     @include aspect(1 0.33);
@@ -211,6 +210,10 @@ figure{
     @media screen and (min-width : $medium){
         display: none;
     }
+}
+.alt{
+    width: 100%;
+    text-align: center;
 }
 .last{
     margin-bottom: 0;
