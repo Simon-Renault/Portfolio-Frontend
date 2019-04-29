@@ -130,10 +130,10 @@ export default {
                     let data = {src,alt,className}
                     return new Vue({
                         template : ` 
-                                    <figure  >
+                                    <div>
                                         <image-loader :src="src" :alt="alt" :className="className" ></image-loader>
                                         <span class="alt">{{alt}}</span>
-                                    </figure>
+                                    </div>
                                 `,
                         data(){
                             return {
