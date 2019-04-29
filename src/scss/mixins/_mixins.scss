@@ -215,10 +215,11 @@
             @include full-absolute();
         }
     }
-    figure{
+    & > .figure{
         position: relative;
         overflow: visible;
         margin: 50px 0;
+        display: flex;
         & .alt{
             position: absolute;
             bottom:0;
