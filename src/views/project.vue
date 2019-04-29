@@ -191,7 +191,8 @@ export default {
     }
 }
 .figure{
-   position: relative;
+    display:flex;
+    flex-direction: column;
 }
 .back-to-home{
     @include aspect(1 0.33);
@@ -210,10 +211,6 @@ export default {
     @media screen and (min-width : $medium){
         display: none;
     }
-}
-.alt{
-    width: 100%;
-    text-align: center;
 }
 .last{
     margin-bottom: 0;
