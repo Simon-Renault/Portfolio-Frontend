@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "ffc3d18af5e6ab5fe1270c0cae0b78d4",
-    "url": "/sitempa.xml"
+    "revision": "2005d3d96c8e77825f3c0d4d5efe1d52",
+    "url": "/img/header.svg"
   },
   {
     "revision": "01d2432f47134579bf536f0938234950",
@@ -132,12 +132,12 @@ self.__precacheManifest = [
     "url": "/images/cover/large/portfolio.jpg"
   },
   {
-    "revision": "9c551de9f38161cacfc64854b56e86a7",
-    "url": "/images/quantify-self/functionalities-2.jpg"
-  },
-  {
     "revision": "38a6f068dfaf752310b071c06b3abe1e",
     "url": "/images/quantify-self/functionalities.jpg"
+  },
+  {
+    "revision": "9c551de9f38161cacfc64854b56e86a7",
+    "url": "/images/quantify-self/functionalities-2.jpg"
   },
   {
     "revision": "06ecaeed87ed192f56727ba5f70b1bee",
@@ -176,28 +176,28 @@ self.__precacheManifest = [
     "url": "/images/cover/large/starlight.jpg"
   },
   {
-    "revision": "218e61a61bf45f8b5dbd2bd8bb3e9348",
-    "url": "/robots.txt"
+    "revision": "ffc3d18af5e6ab5fe1270c0cae0b78d4",
+    "url": "/sitempa.xml"
   },
   {
-    "revision": "ff6602b5cb810f3f5215d4157171ba57",
-    "url": "/install.sh"
+    "revision": "218e61a61bf45f8b5dbd2bd8bb3e9348",
+    "url": "/robots.txt"
   },
   {
     "revision": "0485ed9f20ef2c13b2588fca4ac1a961",
     "url": "/images/cover/small/chaos.jpg"
   },
   {
-    "revision": "2005d3d96c8e77825f3c0d4d5efe1d52",
-    "url": "/img/header.svg"
-  },
-  {
     "revision": "6d806976122a211d4c25",
     "url": "/js/app.cb088278.js"
   },
   {
-    "revision": "e1e26c50793705393df2910e79224f84",
-    "url": "/fonts/HKGrotesk-Light.woff2"
+    "revision": "ff6602b5cb810f3f5215d4157171ba57",
+    "url": "/install.sh"
+  },
+  {
+    "revision": "f5022dd39e66f8795cc8c68b1683461a",
+    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
   },
   {
     "revision": "f104d4e00ef679141ae6460d2ec01dcf",
@@ -232,12 +232,16 @@ self.__precacheManifest = [
     "url": "/images/chaos/chaos-main.jpg"
   },
   {
+    "revision": "5261fcb3ea1299885da5bd9026abcce9",
+    "url": "/fonts/HKGrotesk-Regular.woff2"
+  },
+  {
     "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
     "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
   },
   {
-    "revision": "1bbb491bfe3f6f6fdbb7e5e6937ab18e",
-    "url": "/fonts/HKGrotesk-SemiBoldLegacyItalic.woff2"
+    "revision": "956adc1ce35c401293c6230aeecbfc03",
+    "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
   },
   {
     "revision": "ffe46e7a282212358136cfe382c23b0f",
@@ -248,20 +252,16 @@ self.__precacheManifest = [
     "url": "/images/asie-online/asie-online-1.jpg"
   },
   {
-    "revision": "922c8c89dd3e47d1a886d726926b6946",
-    "url": "/images/asie-online/asie-online-form.jpg"
-  },
-  {
     "revision": "a2f1aa89237d90fecd3434be6452b706",
     "url": "/images/chaos/chaos-night.jpg"
   },
   {
-    "revision": "21bccaf73ead906343a3308d547058f5",
-    "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
+    "revision": "922c8c89dd3e47d1a886d726926b6946",
+    "url": "/images/asie-online/asie-online-form.jpg"
   },
   {
-    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
-    "url": "/fonts/HKGrotesk-SemiBold.woff2"
+    "revision": "21bccaf73ead906343a3308d547058f5",
+    "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
   },
   {
     "revision": "be28321acab51f81e1df261b553ed7b2",
@@ -276,6 +276,10 @@ self.__precacheManifest = [
     "url": "/images/chaos/chaos-controler.jpg"
   },
   {
+    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
+    "url": "/fonts/HKGrotesk-SemiBold.woff2"
+  },
+  {
     "revision": "d304356d76a0d513ea8421c18177cda5",
     "url": "/images/asie-online/asie-online-mobile-desktop.jpg"
   },
@@ -284,44 +288,20 @@ self.__precacheManifest = [
     "url": "/images/asie-online/asie-online-test.jpg"
   },
   {
+    "revision": "1bbb491bfe3f6f6fdbb7e5e6937ab18e",
+    "url": "/fonts/HKGrotesk-SemiBoldLegacyItalic.woff2"
+  },
+  {
     "revision": "0a4b42af7842d5cd85abe82cf202fe30",
     "url": "/images/chaos/chaos-debug.jpg"
   },
   {
-    "revision": "956adc1ce35c401293c6230aeecbfc03",
-    "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
+    "revision": "a205d8769de60e9ac5ede86a6dac1560",
+    "url": "/documents/CV-Simon-Renault–EN.pdf"
   },
   {
-    "revision": "ec06f20b2b2071326a345be61c8700df",
-    "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
-  },
-  {
-    "revision": "f5118a7995e6740f4e8193cdac7dd772",
-    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
-  },
-  {
-    "revision": "84c56ea66fab1eeab8aca56f9d31108b",
-    "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
-  },
-  {
-    "revision": "be29113842f0546046810cc7182953a3",
-    "url": "/fonts/HKGrotesk-Medium.woff2"
-  },
-  {
-    "revision": "5261fcb3ea1299885da5bd9026abcce9",
-    "url": "/fonts/HKGrotesk-Regular.woff2"
-  },
-  {
-    "revision": "f5022dd39e66f8795cc8c68b1683461a",
-    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
-  },
-  {
-    "revision": "5d8705fe1d8fc40e796f2e123d40c098",
-    "url": "/fonts/HKGrotesk-Italic.woff2"
-  },
-  {
-    "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
-    "url": "/fonts/HKGrotesk-MediumItalic.woff2"
+    "revision": "e1e26c50793705393df2910e79224f84",
+    "url": "/fonts/HKGrotesk-Light.woff2"
   },
   {
     "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
@@ -332,16 +312,40 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-LightItalic.woff2"
   },
   {
+    "revision": "ec06f20b2b2071326a345be61c8700df",
+    "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
+  },
+  {
+    "revision": "84c56ea66fab1eeab8aca56f9d31108b",
+    "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
+  },
+  {
+    "revision": "be29113842f0546046810cc7182953a3",
+    "url": "/fonts/HKGrotesk-Medium.woff2"
+  },
+  {
+    "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
+    "url": "/fonts/HKGrotesk-MediumItalic.woff2"
+  },
+  {
     "revision": "d1f8d01b13d4f6bc3e18adf0a85a041d",
     "url": "/.htaccess"
   },
   {
-    "revision": "09cf9e8c7b34c70dbcff02eda023d66c",
-    "url": "/documents/CV-Simon-Renault–FR.pdf"
+    "revision": "f5118a7995e6740f4e8193cdac7dd772",
+    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
+  },
+  {
+    "revision": "5d8705fe1d8fc40e796f2e123d40c098",
+    "url": "/fonts/HKGrotesk-Italic.woff2"
   },
   {
     "revision": "6d9408bc6b177ce74bb2369794200164",
     "url": "/fonts/HKGrotesk-BoldLegacy.woff2"
+  },
+  {
+    "revision": "cdcf1c6074f15dfec2ad461e4c1db60a",
+    "url": "/fonts/HKGrotesk-BoldItalic.woff2"
   },
   {
     "revision": "9514299387e6180cc5b3e5a20e9258a5",
@@ -352,16 +356,8 @@ self.__precacheManifest = [
     "url": "/favicon.png"
   },
   {
-    "revision": "0f34d0796bfd26b5c2d15baa72b98883",
-    "url": "/documents/CV-Simon-Renault–FR.png"
-  },
-  {
-    "revision": "cdcf1c6074f15dfec2ad461e4c1db60a",
-    "url": "/fonts/HKGrotesk-BoldItalic.woff2"
-  },
-  {
-    "revision": "a205d8769de60e9ac5ede86a6dac1560",
-    "url": "/documents/CV-Simon-Renault–EN.pdf"
+    "revision": "dd3158398531755371c3f7a9ca96eb7f",
+    "url": "/documents/CV-Simon-Renault–FR.pdf"
   },
   {
     "revision": "1312d22ee9e7d08f0ee9",
