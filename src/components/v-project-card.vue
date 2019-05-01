@@ -4,7 +4,7 @@ li.root
     router-link.project-card( :to="{path: path}" itemprop="url" :class="{'disabled' : project.json.isPublished === 'false' }" )
         .project-card__content()
             div.coming-soon(v-if="project.json.isPublished === 'soon'") 
-                span coming soon
+                span Coming Soon
             image-loader( :src="'https://simon-renault.com/images/cover/small/'+project.json.image.src+'.jpg'" :alt="project.json.title + 'cover image'" ).project-card__img
                
             .project-card__infos

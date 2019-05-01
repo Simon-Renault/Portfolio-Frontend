@@ -9,7 +9,7 @@
     footer.footer
         .footer__content
         .footer__inner
-     
+    
 </template>
 
 <script>
