@@ -96,7 +96,7 @@ export default {
     },
     metaInfo() {
         return {
-             title : 'Simon Renault - portfolio',
+             title : 'Simon Renault | Product designer',
              meta: [
                 { property:"og:locale" ,content:"en_GB" },
                 { property:"og:site_name" ,content:"Simon Renault - Portfolio" },

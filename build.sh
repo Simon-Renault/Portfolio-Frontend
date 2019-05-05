@@ -12,7 +12,7 @@ NC='\033[0m' # No Color
 
 echo -e "${BLUE} New build processing ..."
 echo "${NC}"
-git status
+git status 
 yarn run build
 git add .
 git commit -m "new build"

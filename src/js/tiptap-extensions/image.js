@@ -1,9 +1,5 @@
-
-
 import { Node } from 'tiptap'
 import { pasteRule } from 'tiptap-commands'
-
-
 
 export default class Image extends Node {
 
@@ -26,6 +22,9 @@ export default class Image extends Node {
         className: {
           default: '',
         },
+        ratio : {
+          default : '',
+        }
       },
       group: 'block',
       draggable: true,
@@ -58,7 +57,7 @@ export default class Image extends Node {
   }
 
   getclass(node){
-    return 'text-img ' + ''+node.attrs.className
+    return 'text-img ' + '' + node.attrs.className
   }
 
   pasteRules({ type }) {
@@ -85,6 +84,7 @@ export default class Image extends Node {
 
         attrs.src = data.src
         attrs.alt = data.alt
+        attrs.ratio = 'ratio'
         attrs.className = data.className
 
         const { selection } = state
@@ -119,6 +119,16 @@ export default class Image extends Node {
                   alt,
               })
             },
+        },
+        ratio: {
+          get() {
+              return this.node.attrs.ratio
+          },
+          set(ratio) {
+            this.updateAttrs({
+              ratio,
+            })
+          },
         },
         src: {
           get() {

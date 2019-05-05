@@ -65,7 +65,7 @@ export default {
     },
     metaInfo() {
         return {
-            title : "Simon Renault  - " + this.project.json.title ,
+            title : "Simon Renault | " + this.project.json.title ,
             meta: [
                 {property:"og:url"   ,      content:"https://simon-renault.com/projects/"+this.url},
                 {property :"og:image",      content: this.project.json.image.src },
@@ -119,6 +119,7 @@ export default {
         renderContent(data){
             this.project.content = data.content
             this.isLoaded = true
+            
             this.$nextTick(() => {
 
                 const images = [...this.$refs.text.querySelectorAll('.text-img'),...this.$refs.text.querySelectorAll('img')] || []

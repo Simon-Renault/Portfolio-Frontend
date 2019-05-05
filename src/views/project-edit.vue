@@ -252,6 +252,7 @@ export default {
                     className : ''
                 },
                 z : '',
+                aspect : '',
                 classes : ['classic','tall','long','square'],
                 promise : null
             },
@@ -348,12 +349,26 @@ export default {
                 getter : this.getData
             })
         },
-        getData(){
-            this.imageModal.isOpen = false;
+        async getImgSize(imgSrc){
+            var newImg = new Image();
+            newImg.src = imgSrc;
+            
+            curHeight = newImg.height;
+            curWidth = newImg.width;
+
+            return {
+                x : '',
+                y : ''
+            }
+        },
+        async getData(){
+            this.imageModal.isOpen = false
+            const ratio = await getImgSize()
             return {
                 src : this.imageModal.imageData.src,
                 alt : this.imageModal.imageData.alt,
-                className : this.imageModal.imageData.class
+                className : this.imageModal.imageData.class,
+                ratio 
             }
         },
         onKepPress(ev){
