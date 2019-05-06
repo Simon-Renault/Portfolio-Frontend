@@ -192,27 +192,27 @@
         margin: 80px 0 50px 0;
     }
     .box-image{
-        @include aspect(1.5 1);
+        //@include aspect(1.5 1);
         &.classic{
-            @include aspect(1.5 1);
+            //@include aspect(1.5 1);
         }
         &.long{
-            @include aspect(2 1);
+            //@include aspect(2 1);
         }
         &.tall{
-            @include aspect(1.2 1);
+            //@include aspect(1.2 1);
         }
         &.square{
-            @include aspect(1 1);
+            //@include aspect(1 1);
         }
         
         overflow: hidden;
         @media screen and (min-width : $medium){
-            @include aspect(2.3 1);
+            //@include aspect(2.3 1);
             border-radius: 1rem
         }
         & img{
-            @include full-absolute();
+            //x@include full-absolute();
         }
     }
     & > .figure{

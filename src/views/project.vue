@@ -128,10 +128,28 @@ export default {
                     let src = el.getAttribute("src") || ''
                     let alt =  el.getAttribute("alt") || ''
                     let className = el.getAttribute("classname") || ''
-                    let data = {src,alt,className}
+                    let ratio = el.getAttribute("ratio") || ''
+                    let data = {src,alt,className,ratio}
+                   
+
+                    function getImgSize(imgSrc){
+                        let newImg = new Image();
+                        let pad = 0
+                        newImg.src = imgSrc;
+                        
+                        let curHeight = newImg.height;
+                        let curWidth = newImg.width;
+
+                        console.log(pad)
+                        return pad
+                    }
+
+                    getImgSize(src);
+
+
                     return new Vue({
                         template : ` 
-                                    <div class="figure">
+                                    <div class="figure" >
                                         <image-loader :src="src" :alt="alt" :className="className" ></image-loader>
                                         <span class="alt">{{alt}}</span>
                                     </div>
@@ -141,6 +159,11 @@ export default {
                                 ...data
                             }
                         },
+                        computed : {
+                            ratioStyle(){
+
+                            }
+                        }
                     }).$mount(el)
                 })
             })
@@ -156,24 +179,19 @@ export default {
     mounted(){
         this.$nextTick(()=> {
             this.fetchContent()
-            // Setup a timer
-            //let timeout;
-            //const body = document.querySelector('html')
-            //const img = this.$refs.img.querySelector('img')
-
-            // Listen for resize events
-            // window.addEventListener('scroll',  ( event ) => {
-            //     if (timeout) window.cancelAnimationFrame(timeout);
-                
-            //     timeout = window.requestAnimationFrame( () => {
-            //         let scrollAmount = body.scrollTop
-            //         img.style.transform = `translate(0,${scrollAmount/3}px)`
-            //     });
-
-            // }, false);
         })
     }
 }
+
+
+
+
+
+arr.map(x => x * 2)
+
+
+
+
 </script>
 
 <style lang="scss" >
@@ -186,9 +204,9 @@ export default {
      margin:0 !important;
 }
 .ProseMirror .box-image{
-    @include aspect(1.33 1);
+    //@include aspect(1.33 1);
     @media screen and (min-width : $medium){
-        @include aspect(2.33 1);
+        //@include aspect(2.33 1);
     }
 }
 .figure{

@@ -56,7 +56,7 @@
                     div.modal__inner(@click.stop.prevent)
                         div.modal__content 
                             .top 
-                                image-loader(class="image__preview" :src="imageModal.imageData.src" )
+                                image-loader(class="image__preview" :src="imageModal.imageData.src" ref="img_preview")
                             form.bottom( @submit.prevent.stop="resolve")
                                 v-input( v-model="imageModal.imageData.src" label="src" ).src
                                 v-input( v-model="imageModal.imageData.alt" label="alt" ).alt
@@ -361,9 +361,15 @@ export default {
                 y : ''
             }
         },
-        async getData(){
+        getData(){
             this.imageModal.isOpen = false
-            const ratio = await getImgSize()
+
+            const w = this.$refs.img_preview.$el.querySelector('img').naturalWidth;
+            const h = this.$refs.img_preview.$el.querySelector('img').naturalHeight;
+            console.log(w/h)
+
+            const ratio = (h/w)*100 +'%'
+
             return {
                 src : this.imageModal.imageData.src,
                 alt : this.imageModal.imageData.alt,

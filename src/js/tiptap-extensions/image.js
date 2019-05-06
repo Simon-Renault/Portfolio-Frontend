@@ -36,6 +36,7 @@ export default class Image extends Node {
             src: dom.getAttribute('src'),
             className: dom.getAttribute('className'),
             alt: dom.getAttribute('alt'),
+            ratio : dom.getAttribute('ratio'),
           }),
         },
         {
@@ -45,6 +46,7 @@ export default class Image extends Node {
             src: dom.getAttribute('src'),
             className: dom.getAttribute('className'),
             alt: dom.getAttribute('alt'),
+            ratio : dom.getAttribute('ratio'),
           }),
         }
       ],
@@ -84,7 +86,7 @@ export default class Image extends Node {
 
         attrs.src = data.src
         attrs.alt = data.alt
-        attrs.ratio = 'ratio'
+        attrs.ratio = data.ratio
         attrs.className = data.className
 
         const { selection } = state
@@ -158,9 +160,7 @@ export default class Image extends Node {
       },
       template: `
         <div class="image">
-          <div class="image__abs" >
-            <image-loader class="image__preview" :src="src"  :alt="alt" :className="className" ></image-loader>
-          </div>
+          <image-loader class="image__preview" :src="src"  :alt="alt" :className="className" ></image-loader>
           <span class="alt">{{alt}}</span>
         </div>
       `,
