@@ -160,7 +160,7 @@ export default class Image extends Node {
       },
       template: `
         <div class="image">
-          <image-loader class="image__preview" :src="src"  :alt="alt" :className="className" ></image-loader>
+          <image-loader class="image__preview" :src="src" :ratio="ratio" :alt="alt" :className="className" ></image-loader>
           <span class="alt">{{alt}}</span>
         </div>
       `,

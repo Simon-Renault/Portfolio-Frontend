@@ -1,6 +1,6 @@
 
 <template>
-  <div :class="{'box-image' : true ,'placeholder':true, 'loaded' :loaded}" :style="styles">
+  <div :class="{'box-image' : true ,'placeholder':true, 'loaded' :loaded}" :style="padding">
     <transition name="fade" v-if="placeholder">
       <img v-show="loadedPlaceholder" v-on:load="onLoadedPlaceholder" :src="placeholder"  :alt="alt" :style="styles" class="blured" :class="{'loaded': loaded}">
     </transition>
@@ -35,7 +35,11 @@
         required: false
       },
       className : {
-         type: String,
+        type: String,
+        required: false
+      },
+      ratio : {
+        type: String,
         required: false
       }
     },
@@ -46,8 +50,23 @@
       }
     },
     computed: {
-      styles: function () {
+      padding(){
+        let styles = {
+          paddingBottom : this.ratio
+        }
+        
+        
+        if (this.width) {
+          styles.width = this.width
+        }
+        if (this.height) {
+          styles.height = this.height
+        }
+        return styles
+      },
+      styles(){
         let styles = {}
+        
         
         if (this.width) {
           styles.width = this.width

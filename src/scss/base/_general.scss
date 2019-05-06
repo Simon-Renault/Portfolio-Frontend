@@ -89,9 +89,26 @@ table {
 
 
 
-.alt{
-  font-size: 4rem;
-  text-align: center;
 
-   @include text-medium();
+
+.image{
+  display: flex;
+  flex-direction: column;
+  &__preview{
+    & > :first-child{
+      @include full-absolute();
+    }
+  }
+  & > .alt{
+    font-size: 4rem;
+    text-align: center;
+    @include text-medium();
+    //opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  &:hover{
+    & > .alt{
+      opacity: 1;
+    }
+  }
 }

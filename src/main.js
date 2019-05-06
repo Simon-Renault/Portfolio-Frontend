@@ -22,6 +22,9 @@ Vue.component('v-select',select)
 import projectCard from '@/components/v-project-card';
 Vue.component('v-project-card',projectCard)
 
+import articleCard from '@/components/v-article-card';
+Vue.component('v-article-card',articleCard)
+
 
 import imageLoader from '@/components/image-loader';
 Vue.component('image-loader',imageLoader)

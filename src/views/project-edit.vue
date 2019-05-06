@@ -693,8 +693,5 @@ export default {
         
     }
 }
-.image__preview{
-    @include aspect(2.5 1);
-   
-}
+
 </style>

@@ -122,7 +122,7 @@ export default {
             
             this.$nextTick(() => {
 
-                const images = [...this.$refs.text.querySelectorAll('.text-img'),...this.$refs.text.querySelectorAll('img')] || []
+                const images = [...this.$refs.text.querySelectorAll('.text-img')] || []
 
                 images.map((el) => {
                     let src = el.getAttribute("src") || ''
@@ -149,8 +149,8 @@ export default {
 
                     return new Vue({
                         template : ` 
-                                    <div class="figure" >
-                                        <image-loader :src="src" :alt="alt" :className="className" ></image-loader>
+                                    <div class="image" >
+                                        <image-loader class="image__preview" :src="src" :alt="alt" :ratio="ratio" :className="className" ></image-loader>
                                         <span class="alt">{{alt}}</span>
                                     </div>
                                 `,
@@ -187,9 +187,6 @@ export default {
 
 
 
-arr.map(x => x * 2)
-
-
 
 
 </script>
@@ -201,18 +198,9 @@ arr.map(x => x * 2)
 }
 .prevent-width{
     margin:0;
-     margin:0 !important;
+    margin:0 !important;
 }
-.ProseMirror .box-image{
-    //@include aspect(1.33 1);
-    @media screen and (min-width : $medium){
-        //@include aspect(2.33 1);
-    }
-}
-.figure{
-    display:flex;
-    flex-direction: column;
-}
+
 .back-to-home{
     @include aspect(1 0.33);
     background: $color-dark-blue;
@@ -235,18 +223,6 @@ arr.map(x => x * 2)
     margin-bottom: 0;
 }
 
-.image{
-    position: static;
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-    & > img{
-        @include full-absolute();
-    }
-    & .image__editor{
-        @include full-absolute();
-    }
-}
 
 
 .spacer{

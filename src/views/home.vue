@@ -55,6 +55,30 @@ div.page--wrapper
                         v-card-placeholder( v-if="!projectLoaded & cat.id <= 1" )
 
 
+            //section.section()
+                header.section__header
+                    div
+                        h3.section__jumper THOUGHTS AND REFLEXIONS
+                        h2.section__title Articles & publications
+                .section__content
+                    ul.article-grid 
+                        v-article-card( 
+                            url="#" 
+                            image="https://images.unsplash.com/photo-1556804335-2fa563e93aae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80" 
+                            desc="" 
+                            title="")
+                        v-article-card( 
+                            url="#" 
+                            image="https://images.unsplash.com/photo-1556804335-2fa563e93aae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80" 
+                            desc="" 
+                            title="")
+                        v-article-card( 
+                            url="#" 
+                            image="https://images.unsplash.com/photo-1556804335-2fa563e93aae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80" 
+                            desc="" 
+                            title="")
+
+
             section.section(v-if="is_admin && projectLoaded")
                 header.section__header
                     div
@@ -130,7 +154,11 @@ export default {
 </script>
 
 <style lang="scss" >
+.article-grid {
+    display:flex;
+    flex-direction: column;
 
+}
 .header{
     transform: translate( 0, -2px);
     width: 100vw;
