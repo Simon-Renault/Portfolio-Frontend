@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "ff6602b5cb810f3f5215d4157171ba57",
-    "url": "/install.sh"
+    "revision": "9a41a2ee10ca9956c95461915f676929",
+    "url": "/img/header.png"
   },
   {
     "revision": "01d2432f47134579bf536f0938234950",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/index.html"
   },
   {
-    "revision": "def72262ef7e72931d1b4330a3a7ba6c",
+    "revision": "edd6f14edb270426e937cbad959bf17f",
     "url": "/images/quantified-self/main_screen.jpg"
   },
   {
-    "revision": "ed25b48a962e58b2086a166c47cc392b",
-    "url": "/images/quantified-self/create_routine.jpg"
+    "revision": "043377983c2fa285529790d0a979950b",
+    "url": "/images/quantified-self/explore.jpg"
   },
   {
     "revision": "b2bfd0b6899540dddc09af4f9e74a914",
@@ -84,12 +84,12 @@ self.__precacheManifest = [
     "url": "/images/cover/small/starlight.jpg"
   },
   {
-    "revision": "1fc2014b9b77b4743ff18d02dd6fbeef",
-    "url": "/images/cover/small/case-study-builder.jpg"
-  },
-  {
     "revision": "b4a58485677423b48ca571ae63d9e6de",
     "url": "/images/cover/small/asie-online.jpg"
+  },
+  {
+    "revision": "1fc2014b9b77b4743ff18d02dd6fbeef",
+    "url": "/images/cover/small/case-study-builder.jpg"
   },
   {
     "revision": "bb5dd38338d5d705c998d973d6aa32d7",
@@ -100,36 +100,40 @@ self.__precacheManifest = [
     "url": "/images/cover/small/quantify-self.jpg"
   },
   {
-    "revision": "b6ec3bb88906c417c178c458f92d66e0",
-    "url": "/images/quantified-self/datas.jpg"
+    "revision": "ed25b48a962e58b2086a166c47cc392b",
+    "url": "/images/quantified-self/create_routine.jpg"
   },
   {
-    "revision": "3c092fc41400b71af8154796bfa09e7e",
-    "url": "/images/quantified-self/colect.jpg"
+    "revision": "b6ec3bb88906c417c178c458f92d66e0",
+    "url": "/images/quantified-self/datas.jpg"
   },
   {
     "revision": "ecd0f21db83b4beafaf7c9fee3d38a16",
     "url": "/images/cover/small/placeholder.jpg"
   },
   {
-    "revision": "0d512832e5c425b7c069f3db9e0d9863",
-    "url": "/images/starlight/starlight-all.png"
+    "revision": "3c092fc41400b71af8154796bfa09e7e",
+    "url": "/images/quantified-self/colect.jpg"
   },
   {
     "revision": "373699a6d288335ef5df370f75c6e9d1",
     "url": "/images/quantified-self/login.jpg"
   },
   {
+    "revision": "0d512832e5c425b7c069f3db9e0d9863",
+    "url": "/images/starlight/starlight-all.png"
+  },
+  {
     "revision": "035182566067ce7ebc6d6acbcf9f63f6",
     "url": "/images/quantified-self/onboarding.jpg"
   },
   {
-    "revision": "8f6db8fd3058f6832c2c9acb94dd7f68",
-    "url": "/images/quantified-self/visual_design.jpg"
-  },
-  {
     "revision": "29d32ab4b908877314846466e85c21b5",
     "url": "/images/quantified-self/components.jpg"
+  },
+  {
+    "revision": "8f6db8fd3058f6832c2c9acb94dd7f68",
+    "url": "/images/quantified-self/visual_design.jpg"
   },
   {
     "revision": "c15971500b522d0a0375fa080e40a7fd",
@@ -152,10 +156,6 @@ self.__precacheManifest = [
     "url": "/images/quantified-self/flow.jpg"
   },
   {
-    "revision": "ebeca05cef29ba3fd0c09f08a86f52a3",
-    "url": "/images/quantified-self/flow.png"
-  },
-  {
     "revision": "83530f0056115b083e8d41d665c59d7b",
     "url": "/images/mci/mci-home.jpg"
   },
@@ -172,16 +172,16 @@ self.__precacheManifest = [
     "url": "/images/portfolio/portfolio-project.jpg"
   },
   {
+    "revision": "2a48aaf1e652928303775d8e6f3a3df9",
+    "url": "/images/quantified-self/wireframes.png"
+  },
+  {
     "revision": "37e65d2f2bb0eccb543f6144e6103ce8",
     "url": "/images/quantified-self/screens.jpg"
   },
   {
     "revision": "38e47c015776f6901cdf29f2ea77a2b5",
     "url": "/images/portfolio/portfolio-main.jpg"
-  },
-  {
-    "revision": "38e47c015776f6901cdf29f2ea77a2b5",
-    "url": "/images/cover/large/portfolio.jpg"
   },
   {
     "revision": "0485ed9f20ef2c13b2588fca4ac1a961",
@@ -200,8 +200,8 @@ self.__precacheManifest = [
     "url": "/images/cover/small/quantified-self.jpg"
   },
   {
-    "revision": "3bc80b4de04897046cd1f1ed5cc1568b",
-    "url": "/images/quantified-self/architecture.png"
+    "revision": "38e47c015776f6901cdf29f2ea77a2b5",
+    "url": "/images/cover/large/portfolio.jpg"
   },
   {
     "revision": "554a5f985a04b672d85a1aed6d168e77",
@@ -216,16 +216,16 @@ self.__precacheManifest = [
     "url": "/images/starlight/starlight-small.png"
   },
   {
-    "revision": "06ecaeed87ed192f56727ba5f70b1bee",
-    "url": "/images/starlight/starlight-close.png"
+    "revision": "3bc80b4de04897046cd1f1ed5cc1568b",
+    "url": "/images/quantified-self/architecture.png"
   },
   {
     "revision": "abe597fe6c3641adb050",
     "url": "/js/app.96604565.js"
   },
   {
-    "revision": "9a41a2ee10ca9956c95461915f676929",
-    "url": "/img/header.png"
+    "revision": "ff6602b5cb810f3f5215d4157171ba57",
+    "url": "/install.sh"
   },
   {
     "revision": "218e61a61bf45f8b5dbd2bd8bb3e9348",
@@ -240,32 +240,32 @@ self.__precacheManifest = [
     "url": "/img/intro.svg"
   },
   {
-    "revision": "93f7995ff9ce1a0e14c59070e96500c3",
-    "url": "/images/starlight/starlight-trial.png"
+    "revision": "06ecaeed87ed192f56727ba5f70b1bee",
+    "url": "/images/starlight/starlight-close.png"
   },
   {
     "revision": "3aede7b619d6938652838880858fc4b1",
     "url": "/images/cover/small/citizen-link.jpg"
   },
   {
+    "revision": "93f7995ff9ce1a0e14c59070e96500c3",
+    "url": "/images/starlight/starlight-trial.png"
+  },
+  {
     "revision": "922c8c89dd3e47d1a886d726926b6946",
     "url": "/images/asie-online/asie-online-form.jpg"
   },
   {
-    "revision": "a205d8769de60e9ac5ede86a6dac1560",
-    "url": "/documents/CV-Simon-Renault–EN.pdf"
+    "revision": "dd3158398531755371c3f7a9ca96eb7f",
+    "url": "/documents/CV-Simon-Renault–FR.pdf"
   },
   {
-    "revision": "a2f1aa89237d90fecd3434be6452b706",
-    "url": "/images/chaos/chaos-night.jpg"
+    "revision": "3692c9a88540747ba2674343cf2bbf07",
+    "url": "/images/cover/large/citizen-link.jpg"
   },
   {
     "revision": "f9ab6db5fc32fa9682fabfb29748e9af",
     "url": "/images/cover/large/asie-online.jpg"
-  },
-  {
-    "revision": "ef79801b1c681138677d037351f0165f",
-    "url": "/images/chaos/chaos-work.jpg"
   },
   {
     "revision": "be28321acab51f81e1df261b553ed7b2",
@@ -280,24 +280,24 @@ self.__precacheManifest = [
     "url": "/images/chaos/chaos-controler.jpg"
   },
   {
-    "revision": "55dc0051dcfc5bfd3ff2b0e3db71b7cb",
-    "url": "/images/cover/large/case-study-builder.jpg"
-  },
-  {
-    "revision": "9c551de9f38161cacfc64854b56e86a7",
-    "url": "/images/case-study-builder/functionalities-2.jpg"
+    "revision": "ef79801b1c681138677d037351f0165f",
+    "url": "/images/chaos/chaos-work.jpg"
   },
   {
     "revision": "38a6f068dfaf752310b071c06b3abe1e",
     "url": "/images/case-study-builder/functionalities.jpg"
   },
   {
-    "revision": "f104d4e00ef679141ae6460d2ec01dcf",
-    "url": "/images/chaos/chaos-vr.jpg"
+    "revision": "9c551de9f38161cacfc64854b56e86a7",
+    "url": "/images/case-study-builder/functionalities-2.jpg"
   },
   {
-    "revision": "956adc1ce35c401293c6230aeecbfc03",
-    "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
+    "revision": "55dc0051dcfc5bfd3ff2b0e3db71b7cb",
+    "url": "/images/cover/large/case-study-builder.jpg"
+  },
+  {
+    "revision": "f104d4e00ef679141ae6460d2ec01dcf",
+    "url": "/images/chaos/chaos-vr.jpg"
   },
   {
     "revision": "0a4b42af7842d5cd85abe82cf202fe30",
@@ -324,56 +324,56 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-SemiBoldLegacyItalic.woff2"
   },
   {
+    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
+    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
+  },
+  {
     "revision": "21bccaf73ead906343a3308d547058f5",
     "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
   },
   {
-    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
-    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
+    "revision": "956adc1ce35c401293c6230aeecbfc03",
+    "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
   },
   {
     "revision": "bc4d56adf65a5c59474a79e987f4b04b",
     "url": "/fonts/HKGrotesk-SemiBold.woff2"
   },
   {
-    "revision": "5261fcb3ea1299885da5bd9026abcce9",
-    "url": "/fonts/HKGrotesk-Regular.woff2"
-  },
-  {
     "revision": "83530f0056115b083e8d41d665c59d7b",
     "url": "/images/cover/large/mci.jpg"
   },
   {
-    "revision": "dd3158398531755371c3f7a9ca96eb7f",
-    "url": "/documents/CV-Simon-Renault–FR.pdf"
+    "revision": "5261fcb3ea1299885da5bd9026abcce9",
+    "url": "/fonts/HKGrotesk-Regular.woff2"
+  },
+  {
+    "revision": "a2f1aa89237d90fecd3434be6452b706",
+    "url": "/images/chaos/chaos-night.jpg"
   },
   {
     "revision": "b67b86579b8389b22e1f6688c1a5255c",
     "url": "/images/asie-online/asie-online-1.jpg"
   },
   {
-    "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
-    "url": "/fonts/HKGrotesk-MediumItalic.woff2"
-  },
-  {
     "revision": "ffe46e7a282212358136cfe382c23b0f",
     "url": "/images/asie-online/asie-online-2.jpg"
   },
   {
-    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
-    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
+    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
+    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
   },
   {
     "revision": "ec06f20b2b2071326a345be61c8700df",
     "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
   },
   {
-    "revision": "be29113842f0546046810cc7182953a3",
-    "url": "/fonts/HKGrotesk-Medium.woff2"
+    "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
+    "url": "/fonts/HKGrotesk-MediumItalic.woff2"
   },
   {
-    "revision": "f5022dd39e66f8795cc8c68b1683461a",
-    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
+    "revision": "be29113842f0546046810cc7182953a3",
+    "url": "/fonts/HKGrotesk-Medium.woff2"
   },
   {
     "revision": "84c56ea66fab1eeab8aca56f9d31108b",
@@ -386,6 +386,10 @@ self.__precacheManifest = [
   {
     "revision": "e1e26c50793705393df2910e79224f84",
     "url": "/fonts/HKGrotesk-Light.woff2"
+  },
+  {
+    "revision": "f5022dd39e66f8795cc8c68b1683461a",
+    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
   },
   {
     "revision": "5d8705fe1d8fc40e796f2e123d40c098",
@@ -412,8 +416,8 @@ self.__precacheManifest = [
     "url": "/favicon.png"
   },
   {
-    "revision": "3692c9a88540747ba2674343cf2bbf07",
-    "url": "/images/cover/large/citizen-link.jpg"
+    "revision": "a205d8769de60e9ac5ede86a6dac1560",
+    "url": "/documents/CV-Simon-Renault–EN.pdf"
   },
   {
     "revision": "1312d22ee9e7d08f0ee9",
