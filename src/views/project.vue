@@ -43,7 +43,7 @@ main.page(itemscope itemtype="http://schema.org/Article")
 
         footer.back-to-home(@click="$router.push('/')")
             .back-to-home__content
-                span back home
+                span Back Home
 
 </template>
 
@@ -208,7 +208,7 @@ export default {
     
     &__content{
         @include full-absolute();
-         display: flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         font-size: 5rem;

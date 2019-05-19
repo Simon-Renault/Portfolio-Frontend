@@ -587,7 +587,7 @@ select:-webkit-autofill:focus {
         z-index: 44;
         background: rgba($color-dark-blue,0.7);
         position: absolute;
-        font-size: 4rem;
+        font-size: 6rem;
         opacity: 0;
         display: flex;
         align-items: center;
@@ -595,6 +595,9 @@ select:-webkit-autofill:focus {
         font-weight: 800;
         transition: all .5s ease;
         justify-content: center;
+        @media screen and (min-width : $medium){
+            font-size: 4rem;
+        }
     }
     &__img{
         position: absolute !important;
