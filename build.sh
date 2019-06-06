@@ -18,9 +18,15 @@ git add .
 git commit -m "new build"
 git push
 
-ssh simonrencp@ssh.cluster026.hosting.ovh.net -p 22
+ssh simonrencp@ssh.cluster026.hosting.ovh.net -p 22 
+
+
+# test -c
 
 echo -e "${GREEN} new build live on git"
+
+
+
 
 
 
