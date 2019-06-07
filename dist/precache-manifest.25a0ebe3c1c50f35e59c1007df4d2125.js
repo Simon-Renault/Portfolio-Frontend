@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/index.html"
   },
   {
-    "revision": "a83a93b68c39040732e705a2e6b73f33",
-    "url": "/images/cover/large/symbols.jpg"
+    "revision": "6c18c661483af8b06b6a91f46dc4361a",
+    "url": "/images/symbols/zoom.png"
   },
   {
     "revision": "1474df17a94a472e641b72b2ebf6ad36",
@@ -76,12 +76,12 @@ self.__precacheManifest = [
     "url": "/images/cover/small/starlight.jpg"
   },
   {
-    "revision": "1fc2014b9b77b4743ff18d02dd6fbeef",
-    "url": "/images/cover/small/case-study-builder.jpg"
-  },
-  {
     "revision": "b4a58485677423b48ca571ae63d9e6de",
     "url": "/images/cover/small/asie-online.jpg"
+  },
+  {
+    "revision": "1fc2014b9b77b4743ff18d02dd6fbeef",
+    "url": "/images/cover/small/case-study-builder.jpg"
   },
   {
     "revision": "bb5dd38338d5d705c998d973d6aa32d7",
@@ -92,16 +92,20 @@ self.__precacheManifest = [
     "url": "/images/cover/small/quantify-self.jpg"
   },
   {
+    "revision": "a83a93b68c39040732e705a2e6b73f33",
+    "url": "/images/cover/large/symbols.jpg"
+  },
+  {
     "revision": "5c5eaf8fe0374188953acdbd8a9a9c16",
     "url": "/images/asie-online/wireframes.jpg"
   },
   {
-    "revision": "ee6bd2a2d2cfc7de501017df86686aab",
-    "url": "/images/quantified-self/main_screen.jpg"
-  },
-  {
     "revision": "ecd0f21db83b4beafaf7c9fee3d38a16",
     "url": "/images/cover/small/placeholder.jpg"
+  },
+  {
+    "revision": "ee6bd2a2d2cfc7de501017df86686aab",
+    "url": "/images/quantified-self/main_screen.jpg"
   },
   {
     "revision": "2ee8da5704ab2bf686a5f2e106f165b3",
@@ -128,16 +132,16 @@ self.__precacheManifest = [
     "url": "/images/quantified-self/colect.jpg"
   },
   {
-    "revision": "135ef3de42f0704c80ba1303f593b1f8",
-    "url": "/images/noisy-city/mobile_go_to.png"
+    "revision": "0d512832e5c425b7c069f3db9e0d9863",
+    "url": "/images/starlight/starlight-all.png"
   },
   {
     "revision": "14fea45596f462d870a007ee3177b0c2",
     "url": "/images/noisy-city/prototype.png"
   },
   {
-    "revision": "0d512832e5c425b7c069f3db9e0d9863",
-    "url": "/images/starlight/starlight-all.png"
+    "revision": "135ef3de42f0704c80ba1303f593b1f8",
+    "url": "/images/noisy-city/mobile_go_to.png"
   },
   {
     "revision": "373699a6d288335ef5df370f75c6e9d1",
@@ -166,10 +170,6 @@ self.__precacheManifest = [
   {
     "revision": "cbdea14c8ce65e524cee231ca18ccbd5",
     "url": "/images/noisy-city/desktop_dataset_eddition.png"
-  },
-  {
-    "revision": "416c327fb9a66fac567f8871d2ac8abd",
-    "url": "/images/noisy-city/desktop_dashboard.png"
   },
   {
     "revision": "f104d4e00ef679141ae6460d2ec01dcf",
@@ -220,12 +220,12 @@ self.__precacheManifest = [
     "url": "/images/chaos/chaos-work.jpg"
   },
   {
-    "revision": "b2bfd0b6899540dddc09af4f9e74a914",
-    "url": "/img/footer-mobile.svg"
-  },
-  {
     "revision": "57851f0fddf0eb04549f78ae139d7cae",
     "url": "/img/footer.svg"
+  },
+  {
+    "revision": "b2bfd0b6899540dddc09af4f9e74a914",
+    "url": "/img/footer-mobile.svg"
   },
   {
     "revision": "f9ab6db5fc32fa9682fabfb29748e9af",
@@ -256,12 +256,16 @@ self.__precacheManifest = [
     "url": "/images/cover/small/citizen-link.jpg"
   },
   {
+    "revision": "416c327fb9a66fac567f8871d2ac8abd",
+    "url": "/images/noisy-city/desktop_dashboard.png"
+  },
+  {
     "revision": "e2091a719c0abd98aabfba7efd2820d6",
     "url": "/images/noisy-city/mobile_homepage.png"
   },
   {
-    "revision": "540b8518aea7fb97bdb540e99c2b8b13",
-    "url": "/images/mci/mci-all.jpg"
+    "revision": "f43b81214610839cd334ff43b5b0b5f7",
+    "url": "/images/symbols/small.png"
   },
   {
     "revision": "1db97b129bc1375080686beef86c4a1a",
@@ -280,8 +284,8 @@ self.__precacheManifest = [
     "url": "/images/noisy-city/architecture-technical.png"
   },
   {
-    "revision": "10697664451b2c59f4f7849e3f083c2b",
-    "url": "/images/cover/large/noisy-city.jpg"
+    "revision": "540b8518aea7fb97bdb540e99c2b8b13",
+    "url": "/images/mci/mci-all.jpg"
   },
   {
     "revision": "1d1621b46ffcae25c0c746e1347ea4b6",
@@ -304,24 +308,28 @@ self.__precacheManifest = [
     "url": "/images/quantified-self/architecture.png"
   },
   {
-    "revision": "9c551de9f38161cacfc64854b56e86a7",
-    "url": "/images/case-study-builder/functionalities-2.jpg"
+    "revision": "7149bd87965bd4aee04f31de3f896f86",
+    "url": "/images/symbols/medium.png"
   },
   {
     "revision": "38a6f068dfaf752310b071c06b3abe1e",
     "url": "/images/case-study-builder/functionalities.jpg"
   },
   {
+    "revision": "9c551de9f38161cacfc64854b56e86a7",
+    "url": "/images/case-study-builder/functionalities-2.jpg"
+  },
+  {
     "revision": "93f7995ff9ce1a0e14c59070e96500c3",
     "url": "/images/starlight/starlight-trial.png"
   },
   {
-    "revision": "1e5cfcae31345a7f0a9b4598f3960e3d",
-    "url": "/images/noisy-city/cunstomize_details.png"
-  },
-  {
     "revision": "06ecaeed87ed192f56727ba5f70b1bee",
     "url": "/images/starlight/starlight-close.png"
+  },
+  {
+    "revision": "1e5cfcae31345a7f0a9b4598f3960e3d",
+    "url": "/images/noisy-city/cunstomize_details.png"
   },
   {
     "revision": "38e47c015776f6901cdf29f2ea77a2b5",
@@ -336,12 +344,12 @@ self.__precacheManifest = [
     "url": "/images/chaos/chaos-debug.jpg"
   },
   {
-    "revision": "e1dc629fc5a50bb9599fe78c7652644b",
-    "url": "/images/starlight/starlight-rotated.png"
+    "revision": "10697664451b2c59f4f7849e3f083c2b",
+    "url": "/images/cover/large/noisy-city.jpg"
   },
   {
-    "revision": "e6ff4b85e51195961ab5920abb30da86",
-    "url": "/images/cover/large/placeholder.jpg"
+    "revision": "e1dc629fc5a50bb9599fe78c7652644b",
+    "url": "/images/starlight/starlight-rotated.png"
   },
   {
     "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
@@ -352,12 +360,12 @@ self.__precacheManifest = [
     "url": "/images/cover/large/chaos.jpg"
   },
   {
-    "revision": "d12dfd00f9283e205f5680f49880458d",
-    "url": "/images/noisy-city/desktop_analytics.png"
-  },
-  {
     "revision": "c25ea836d454b06c6355f6e910cd6b50",
     "url": "/images/portfolio/portfolio-project.jpg"
+  },
+  {
+    "revision": "d12dfd00f9283e205f5680f49880458d",
+    "url": "/images/noisy-city/desktop_analytics.png"
   },
   {
     "revision": "b90b0bfff7bb05c5d397b2853cc43d47",
@@ -369,31 +377,35 @@ self.__precacheManifest = [
   },
   {
     "revision": "83530f0056115b083e8d41d665c59d7b",
-    "url": "/images/cover/large/mci.jpg"
-  },
-  {
-    "revision": "83530f0056115b083e8d41d665c59d7b",
     "url": "/images/mci/mci-home.jpg"
   },
   {
-    "revision": "6cb91ac3ebf2deb1e64136b857bfa104",
-    "url": "/images/quantified-self/flow.jpg"
+    "revision": "83530f0056115b083e8d41d665c59d7b",
+    "url": "/images/cover/large/mci.jpg"
   },
   {
     "revision": "37e65d2f2bb0eccb543f6144e6103ce8",
     "url": "/images/quantified-self/screens.jpg"
   },
   {
+    "revision": "e6ff4b85e51195961ab5920abb30da86",
+    "url": "/images/cover/large/placeholder.jpg"
+  },
+  {
     "revision": "2a48aaf1e652928303775d8e6f3a3df9",
     "url": "/images/quantified-self/wireframes.png"
   },
   {
-    "revision": "84c56ea66fab1eeab8aca56f9d31108b",
-    "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
+    "revision": "6cb91ac3ebf2deb1e64136b857bfa104",
+    "url": "/images/quantified-self/flow.jpg"
   },
   {
-    "revision": "b67b86579b8389b22e1f6688c1a5255c",
-    "url": "/images/asie-online/asie-online-1.jpg"
+    "revision": "e1e26c50793705393df2910e79224f84",
+    "url": "/fonts/HKGrotesk-Light.woff2"
+  },
+  {
+    "revision": "ffe46e7a282212358136cfe382c23b0f",
+    "url": "/images/asie-online/asie-online-2.jpg"
   },
   {
     "revision": "922c8c89dd3e47d1a886d726926b6946",
@@ -424,12 +436,24 @@ self.__precacheManifest = [
     "url": "/images/asie-online/middle.jpg"
   },
   {
-    "revision": "ffe46e7a282212358136cfe382c23b0f",
-    "url": "/images/asie-online/asie-online-2.jpg"
+    "revision": "cdcf1c6074f15dfec2ad461e4c1db60a",
+    "url": "/fonts/HKGrotesk-BoldItalic.woff2"
   },
   {
-    "revision": "5d8705fe1d8fc40e796f2e123d40c098",
-    "url": "/fonts/HKGrotesk-Italic.woff2"
+    "revision": "1bbb491bfe3f6f6fdbb7e5e6937ab18e",
+    "url": "/fonts/HKGrotesk-SemiBoldLegacyItalic.woff2"
+  },
+  {
+    "revision": "b67b86579b8389b22e1f6688c1a5255c",
+    "url": "/images/asie-online/asie-online-1.jpg"
+  },
+  {
+    "revision": "f5118a7995e6740f4e8193cdac7dd772",
+    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
+  },
+  {
+    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
+    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
   },
   {
     "revision": "bc4d56adf65a5c59474a79e987f4b04b",
@@ -444,72 +468,56 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-SemiBoldLegacy.woff2"
   },
   {
-    "revision": "1bbb491bfe3f6f6fdbb7e5e6937ab18e",
-    "url": "/fonts/HKGrotesk-SemiBoldLegacyItalic.woff2"
+    "revision": "f579c94fe056bbab12dc3327e4babdfb",
+    "url": "/favicon.png"
   },
   {
-    "revision": "9514299387e6180cc5b3e5a20e9258a5",
-    "url": "/fonts/HKGrotesk-Bold.woff2"
-  },
-  {
-    "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
-    "url": "/fonts/HKGrotesk-MediumItalic.woff2"
-  },
-  {
-    "revision": "5261fcb3ea1299885da5bd9026abcce9",
-    "url": "/fonts/HKGrotesk-Regular.woff2"
-  },
-  {
-    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
-    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
-  },
-  {
-    "revision": "ec06f20b2b2071326a345be61c8700df",
-    "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
-  },
-  {
-    "revision": "ae0b9a9c63cb224f81254977e9f4a27f",
-    "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
-  },
-  {
-    "revision": "1312d22ee9e7d08f0ee9",
-    "url": "/css/chunk-6e18e988.15c708a2.css"
-  },
-  {
-    "revision": "e1e26c50793705393df2910e79224f84",
-    "url": "/fonts/HKGrotesk-Light.woff2"
-  },
-  {
-    "revision": "c03c634d58e3ffc453109b6bfd7a0684",
-    "url": "/fonts/HKGrotesk-LightItalic.woff2"
+    "revision": "84c56ea66fab1eeab8aca56f9d31108b",
+    "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
   },
   {
     "revision": "be29113842f0546046810cc7182953a3",
     "url": "/fonts/HKGrotesk-Medium.woff2"
   },
   {
-    "revision": "3f9dce9cc8b19f0eb535",
-    "url": "/css/chunk-46e23e93.8ed35441.css"
+    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
+    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
   },
   {
-    "revision": "6d9408bc6b177ce74bb2369794200164",
-    "url": "/fonts/HKGrotesk-BoldLegacy.woff2"
+    "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
+    "url": "/fonts/HKGrotesk-MediumItalic.woff2"
+  },
+  {
+    "revision": "ec06f20b2b2071326a345be61c8700df",
+    "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
+  },
+  {
+    "revision": "5261fcb3ea1299885da5bd9026abcce9",
+    "url": "/fonts/HKGrotesk-Regular.woff2"
+  },
+  {
+    "revision": "13cd1263da382f0c3845",
+    "url": "/css/chunk-520d0db7.b1bc1274.css"
+  },
+  {
+    "revision": "5d8705fe1d8fc40e796f2e123d40c098",
+    "url": "/fonts/HKGrotesk-Italic.woff2"
   },
   {
     "revision": "f5022dd39e66f8795cc8c68b1683461a",
     "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
   },
   {
-    "revision": "f5118a7995e6740f4e8193cdac7dd772",
-    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
+    "revision": "c03c634d58e3ffc453109b6bfd7a0684",
+    "url": "/fonts/HKGrotesk-LightItalic.woff2"
   },
   {
-    "revision": "cdcf1c6074f15dfec2ad461e4c1db60a",
-    "url": "/fonts/HKGrotesk-BoldItalic.woff2"
+    "revision": "6d9408bc6b177ce74bb2369794200164",
+    "url": "/fonts/HKGrotesk-BoldLegacy.woff2"
   },
   {
-    "revision": "f579c94fe056bbab12dc3327e4babdfb",
-    "url": "/favicon.png"
+    "revision": "9514299387e6180cc5b3e5a20e9258a5",
+    "url": "/fonts/HKGrotesk-Bold.woff2"
   },
   {
     "revision": "1844c7db8845582b49bfc93656eee72d",
@@ -520,8 +528,12 @@ self.__precacheManifest = [
     "url": "/documents/CV-Simon-Renault–EN.pdf"
   },
   {
-    "revision": "13cd1263da382f0c3845",
-    "url": "/css/chunk-520d0db7.b1bc1274.css"
+    "revision": "1312d22ee9e7d08f0ee9",
+    "url": "/css/chunk-6e18e988.15c708a2.css"
+  },
+  {
+    "revision": "3f9dce9cc8b19f0eb535",
+    "url": "/css/chunk-46e23e93.8ed35441.css"
   },
   {
     "revision": "60659db264cd2f930503",
