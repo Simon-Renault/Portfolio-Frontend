@@ -6,19 +6,19 @@ const state = {
         {
             id : 1,
             title : 'Work & projects',
-            exerpt : 'Solving real problems',
+            exerpt : 'Case studies & problems solving',
             disabled : false,
         },
         {
             id : 3,
             title : 'Digital art',
-            exerpt : 'Creative & inspirational',
+            exerpt : 'Pixels, fun & code',
             disabled : false,
         },
         {
             id : 2,
-            title : 'Random experiments',
-            exerpt : 'Sometimes explosives',
+            title : 'Experiments & small projects',
+            exerpt : 'Other works & side projects',
             disabled : false,
         },
     ]
