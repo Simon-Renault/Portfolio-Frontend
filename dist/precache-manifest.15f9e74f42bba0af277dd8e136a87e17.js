@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "45f222d987ca50e843c80ba169bb42af",
-    "url": "/images/noisy-city/ooux.png"
+    "revision": "38e47c015776f6901cdf29f2ea77a2b5",
+    "url": "/images/cover/large/portfolio.jpg"
   },
   {
     "revision": "61ebfef7b98db76e7b27d3f8cb8baabc",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/images/symbols/zoom.png"
   },
   {
-    "revision": "1474df17a94a472e641b72b2ebf6ad36",
-    "url": "/images/cover/large/symbols.png"
+    "revision": "a83a93b68c39040732e705a2e6b73f33",
+    "url": "/images/cover/large/symbols.jpg"
   },
   {
     "revision": "168eadaddc667e89f9e1262907db3eca",
@@ -88,8 +88,8 @@ self.__precacheManifest = [
     "url": "/images/cover/small/quantify-self.jpg"
   },
   {
-    "revision": "a83a93b68c39040732e705a2e6b73f33",
-    "url": "/images/cover/large/symbols.jpg"
+    "revision": "1474df17a94a472e641b72b2ebf6ad36",
+    "url": "/images/cover/large/symbols.png"
   },
   {
     "revision": "eb338ebb24c593779fb99125ada3dea4",
@@ -104,32 +104,36 @@ self.__precacheManifest = [
     "url": "/images/asie-online/wireframes.jpg"
   },
   {
-    "revision": "ee6bd2a2d2cfc7de501017df86686aab",
-    "url": "/images/quantified-self/main_screen.jpg"
-  },
-  {
     "revision": "2ee8da5704ab2bf686a5f2e106f165b3",
     "url": "/images/noisy-city/mobile_experience_details.png"
   },
   {
-    "revision": "2e800f7c36dabd28e92e91ae1ea098e7",
-    "url": "/images/case-study-builder/prototype.png"
+    "revision": "ee6bd2a2d2cfc7de501017df86686aab",
+    "url": "/images/quantified-self/main_screen.jpg"
   },
   {
     "revision": "8d6a95357964ed7cd81420e6e13d900c",
     "url": "/images/quantified-self/explore.jpg"
   },
   {
-    "revision": "c05b90ec57e6c77889d63404b0d840bb",
-    "url": "/images/quantified-self/create_routine.jpg"
-  },
-  {
-    "revision": "b6ec3bb88906c417c178c458f92d66e0",
-    "url": "/images/quantified-self/datas.jpg"
+    "revision": "2e800f7c36dabd28e92e91ae1ea098e7",
+    "url": "/images/case-study-builder/prototype.png"
   },
   {
     "revision": "d4bc5897590e382cb0a56805fbf705d3",
     "url": "/images/noisy-city/mobile_experience_launch.png"
+  },
+  {
+    "revision": "c05b90ec57e6c77889d63404b0d840bb",
+    "url": "/images/quantified-self/create_routine.jpg"
+  },
+  {
+    "revision": "2576cad9259ed995dee656c72cfa11f8",
+    "url": "/images/case-study-builder/theme.png"
+  },
+  {
+    "revision": "b6ec3bb88906c417c178c458f92d66e0",
+    "url": "/images/quantified-self/datas.jpg"
   },
   {
     "revision": "3c092fc41400b71af8154796bfa09e7e",
@@ -144,12 +148,12 @@ self.__precacheManifest = [
     "url": "/images/noisy-city/mobile_go_to.png"
   },
   {
-    "revision": "373699a6d288335ef5df370f75c6e9d1",
-    "url": "/images/quantified-self/login.jpg"
-  },
-  {
     "revision": "0d512832e5c425b7c069f3db9e0d9863",
     "url": "/images/starlight/starlight-all.png"
+  },
+  {
+    "revision": "373699a6d288335ef5df370f75c6e9d1",
+    "url": "/images/quantified-self/login.jpg"
   },
   {
     "revision": "035182566067ce7ebc6d6acbcf9f63f6",
@@ -158,10 +162,6 @@ self.__precacheManifest = [
   {
     "revision": "8f6db8fd3058f6832c2c9acb94dd7f68",
     "url": "/images/quantified-self/visual_design.jpg"
-  },
-  {
-    "revision": "f8dd571f4b040abced9ba68b484de724",
-    "url": "/images/img-to-txt/iterations.png"
   },
   {
     "revision": "d6dd7b9707e9408de107e6dd639d06b1",
@@ -180,20 +180,16 @@ self.__precacheManifest = [
     "url": "/images/noisy-city/compagnon_app.png"
   },
   {
-    "revision": "f2c9334cc07a7773b326288d54987d6e",
-    "url": "/images/cover/small/quantified-self.jpg"
-  },
-  {
     "revision": "8c19be150f84b4a5e0ce8e24765a3674",
     "url": "/images/cover/small/obi.jpg"
   },
   {
-    "revision": "34eb17f07486e58df0def0a89bdd4bce",
-    "url": "/images/noisy-city/cunstomize_details___1.png"
+    "revision": "f2c9334cc07a7773b326288d54987d6e",
+    "url": "/images/cover/small/quantified-self.jpg"
   },
   {
     "revision": "34eb17f07486e58df0def0a89bdd4bce",
-    "url": "/images/noisy-city/desktop_small_flow.png"
+    "url": "/images/noisy-city/cunstomize_details___1.png"
   },
   {
     "revision": "554a5f985a04b672d85a1aed6d168e77",
@@ -204,16 +200,20 @@ self.__precacheManifest = [
     "url": "/images/cover/small/case-study-builder.jpg"
   },
   {
-    "revision": "6b587f5d4462766b2cde5b9567c469bf",
-    "url": "/images/cover/small/noisy-city.jpg"
-  },
-  {
     "revision": "088162e3453aef1fa6b11ee1391269e2",
     "url": "/images/cover/small/symbols.jpg"
   },
   {
+    "revision": "6b587f5d4462766b2cde5b9567c469bf",
+    "url": "/images/cover/small/noisy-city.jpg"
+  },
+  {
     "revision": "ef79801b1c681138677d037351f0165f",
     "url": "/images/chaos/chaos-work.jpg"
+  },
+  {
+    "revision": "34eb17f07486e58df0def0a89bdd4bce",
+    "url": "/images/noisy-city/desktop_small_flow.png"
   },
   {
     "revision": "1f204abb4e36158f304572539b88d47a",
@@ -224,6 +224,18 @@ self.__precacheManifest = [
     "url": "/images/cover/large/obi.jpg"
   },
   {
+    "revision": "f9ab6db5fc32fa9682fabfb29748e9af",
+    "url": "/images/cover/large/asie-online.jpg"
+  },
+  {
+    "revision": "93938dfa60a9cbaa530a3f373cf4bfd6",
+    "url": "/images/case-study-builder/vue_lumen.png"
+  },
+  {
+    "revision": "5989b78a7d948cc182d0f2ed7e8cd808",
+    "url": "/images/portfolio/portfolio-heatmap.jpg"
+  },
+  {
     "revision": "b2bfd0b6899540dddc09af4f9e74a914",
     "url": "/img/footer-mobile.svg"
   },
@@ -232,40 +244,20 @@ self.__precacheManifest = [
     "url": "/img/footer.svg"
   },
   {
-    "revision": "f9ab6db5fc32fa9682fabfb29748e9af",
-    "url": "/images/cover/large/asie-online.jpg"
-  },
-  {
-    "revision": "5989b78a7d948cc182d0f2ed7e8cd808",
-    "url": "/images/portfolio/portfolio-heatmap.jpg"
-  },
-  {
-    "revision": "93938dfa60a9cbaa530a3f373cf4bfd6",
-    "url": "/images/case-study-builder/vue_lumen.png"
-  },
-  {
     "revision": "3aede7b619d6938652838880858fc4b1",
     "url": "/images/cover/small/citizen-link.jpg"
   },
   {
-    "revision": "2005d3d96c8e77825f3c0d4d5efe1d52",
-    "url": "/img/header.svg"
+    "revision": "f8dd571f4b040abced9ba68b484de724",
+    "url": "/images/img-to-txt/iterations.png"
   },
   {
     "revision": "c15971500b522d0a0375fa080e40a7fd",
     "url": "/images/starlight/starlight-big.png"
   },
   {
-    "revision": "39cd7368eb773c717521c471bbe097ce",
-    "url": "/images/noisy-city/desktop_customize.png"
-  },
-  {
-    "revision": "7efd505eb5ecaf933e653df63cf668ed",
-    "url": "/images/starlight/starlight-small.png"
-  },
-  {
-    "revision": "f43b81214610839cd334ff43b5b0b5f7",
-    "url": "/images/symbols/small.png"
+    "revision": "f6b5af2af307810a4f71b7d540fab270",
+    "url": "/images/case-study-builder/artboard___8.png"
   },
   {
     "revision": "a2f1aa89237d90fecd3434be6452b706",
@@ -276,40 +268,40 @@ self.__precacheManifest = [
     "url": "/images/noisy-city/architecture-technical.png"
   },
   {
-    "revision": "9a41a2ee10ca9956c95461915f676929",
-    "url": "/img/header.png"
+    "revision": "7efd505eb5ecaf933e653df63cf668ed",
+    "url": "/images/starlight/starlight-small.png"
   },
   {
-    "revision": "ff6602b5cb810f3f5215d4157171ba57",
-    "url": "/install.sh"
+    "revision": "9543ad0326694d212c26b44c1bd82b91",
+    "url": "/images/case-study-builder/logo.png"
   },
   {
-    "revision": "248c68f0e99f7fa55105e65410a0ab0b",
-    "url": "/images/img-to-txt/before.png"
+    "revision": "f43b81214610839cd334ff43b5b0b5f7",
+    "url": "/images/symbols/small.png"
   },
   {
-    "revision": "218e61a61bf45f8b5dbd2bd8bb3e9348",
-    "url": "/robots.txt"
+    "revision": "2005d3d96c8e77825f3c0d4d5efe1d52",
+    "url": "/img/header.svg"
+  },
+  {
+    "revision": "cbdea14c8ce65e524cee231ca18ccbd5",
+    "url": "/images/noisy-city/desktop_dataset_eddition.png"
   },
   {
     "revision": "1d1621b46ffcae25c0c746e1347ea4b6",
     "url": "/images/chaos/chaos-team.jpg"
   },
   {
+    "revision": "9a41a2ee10ca9956c95461915f676929",
+    "url": "/img/header.png"
+  },
+  {
     "revision": "c002a84f23cebe4dbbfac53e9b995aaf",
     "url": "/images/noisy-city/app-flows.png"
   },
   {
-    "revision": "1db97b129bc1375080686beef86c4a1a",
-    "url": "/img/intro.svg"
-  },
-  {
-    "revision": "ffc3d18af5e6ab5fe1270c0cae0b78d4",
-    "url": "/sitempa.xml"
-  },
-  {
-    "revision": "c584c3079db7f11d079f",
-    "url": "/js/app.a867c4ac.js"
+    "revision": "2deeb5c712b7bf233dda04524d689616",
+    "url": "/images/case-study-builder/values.png"
   },
   {
     "revision": "760069b63ddbca5bad028753268dc5d4",
@@ -324,48 +316,64 @@ self.__precacheManifest = [
     "url": "/images/case-study-builder/functionalities-2.jpg"
   },
   {
-    "revision": "7149bd87965bd4aee04f31de3f896f86",
-    "url": "/images/symbols/medium.png"
-  },
-  {
-    "revision": "93f7995ff9ce1a0e14c59070e96500c3",
-    "url": "/images/starlight/starlight-trial.png"
-  },
-  {
     "revision": "1e5cfcae31345a7f0a9b4598f3960e3d",
     "url": "/images/noisy-city/cunstomize_details.png"
   },
   {
-    "revision": "38e47c015776f6901cdf29f2ea77a2b5",
-    "url": "/images/cover/large/portfolio.jpg"
+    "revision": "c584c3079db7f11d079f",
+    "url": "/js/app.a867c4ac.js"
   },
   {
-    "revision": "06ecaeed87ed192f56727ba5f70b1bee",
-    "url": "/images/starlight/starlight-close.png"
+    "revision": "ff6602b5cb810f3f5215d4157171ba57",
+    "url": "/install.sh"
+  },
+  {
+    "revision": "1db97b129bc1375080686beef86c4a1a",
+    "url": "/img/intro.svg"
   },
   {
     "revision": "0a4b42af7842d5cd85abe82cf202fe30",
     "url": "/images/chaos/chaos-debug.jpg"
   },
   {
-    "revision": "cbdea14c8ce65e524cee231ca18ccbd5",
-    "url": "/images/noisy-city/desktop_dataset_eddition.png"
+    "revision": "218e61a61bf45f8b5dbd2bd8bb3e9348",
+    "url": "/robots.txt"
+  },
+  {
+    "revision": "ffc3d18af5e6ab5fe1270c0cae0b78d4",
+    "url": "/sitempa.xml"
+  },
+  {
+    "revision": "93f7995ff9ce1a0e14c59070e96500c3",
+    "url": "/images/starlight/starlight-trial.png"
+  },
+  {
+    "revision": "248c68f0e99f7fa55105e65410a0ab0b",
+    "url": "/images/img-to-txt/before.png"
   },
   {
     "revision": "6d963eb8d6c9fb0d927836543d60d6f8",
     "url": "/images/case-study-builder/desktop_dataset_eddition___2.png"
   },
   {
-    "revision": "416c327fb9a66fac567f8871d2ac8abd",
-    "url": "/images/noisy-city/desktop_dashboard.png"
+    "revision": "7149bd87965bd4aee04f31de3f896f86",
+    "url": "/images/symbols/medium.png"
+  },
+  {
+    "revision": "45f222d987ca50e843c80ba169bb42af",
+    "url": "/images/noisy-city/ooux.png"
+  },
+  {
+    "revision": "06ecaeed87ed192f56727ba5f70b1bee",
+    "url": "/images/starlight/starlight-close.png"
+  },
+  {
+    "revision": "39cd7368eb773c717521c471bbe097ce",
+    "url": "/images/noisy-city/desktop_customize.png"
   },
   {
     "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
     "url": "/images/chaos/chaos-main.jpg"
-  },
-  {
-    "revision": "3bc80b4de04897046cd1f1ed5cc1568b",
-    "url": "/images/quantified-self/architecture.png"
   },
   {
     "revision": "bee2eb4be3a2bc3ac001aa34067d5f53",
@@ -382,6 +390,10 @@ self.__precacheManifest = [
   {
     "revision": "d12dfd00f9283e205f5680f49880458d",
     "url": "/images/noisy-city/desktop_analytics.png"
+  },
+  {
+    "revision": "3bc80b4de04897046cd1f1ed5cc1568b",
+    "url": "/images/quantified-self/architecture.png"
   },
   {
     "revision": "38e47c015776f6901cdf29f2ea77a2b5",
@@ -408,20 +420,24 @@ self.__precacheManifest = [
     "url": "/images/noisy-city/mobile_homepage.png"
   },
   {
-    "revision": "c25ea836d454b06c6355f6e910cd6b50",
-    "url": "/images/portfolio/portfolio-project.jpg"
+    "revision": "808f05ee37ea26ad8b1ab6c4b49b890f",
+    "url": "/images/case-study-builder/features.png"
   },
   {
-    "revision": "47d92945ed0c4c6c6977b467e36dd830",
-    "url": "/images/quantified-self/explore.png"
+    "revision": "416c327fb9a66fac567f8871d2ac8abd",
+    "url": "/images/noisy-city/desktop_dashboard.png"
   },
   {
     "revision": "37e65d2f2bb0eccb543f6144e6103ce8",
     "url": "/images/quantified-self/screens.jpg"
   },
   {
-    "revision": "4804612e77fecf6052a29c35e806af75",
-    "url": "/images/img-to-txt/after.png"
+    "revision": "c25ea836d454b06c6355f6e910cd6b50",
+    "url": "/images/portfolio/portfolio-project.jpg"
+  },
+  {
+    "revision": "7b93f3e1629ff777afac1978c76b840f",
+    "url": "/images/case-study-builder/components.png"
   },
   {
     "revision": "4d04a2d57372d37e5b6b4f285e6d5896",
@@ -440,12 +456,16 @@ self.__precacheManifest = [
     "url": "/images/quantified-self/login.png"
   },
   {
-    "revision": "6cb91ac3ebf2deb1e64136b857bfa104",
-    "url": "/images/quantified-self/flow.jpg"
+    "revision": "9a046c057606e5284b1ec815b43d8f6f",
+    "url": "/images/case-study-builder/blocks___21.png"
   },
   {
     "revision": "e6ff4b85e51195961ab5920abb30da86",
     "url": "/images/cover/large/placeholder.jpg"
+  },
+  {
+    "revision": "6cb91ac3ebf2deb1e64136b857bfa104",
+    "url": "/images/quantified-self/flow.jpg"
   },
   {
     "revision": "48bb01be589469cf3becffa93c994e7f",
@@ -456,20 +476,28 @@ self.__precacheManifest = [
     "url": "/images/quantified-self/datas.png"
   },
   {
-    "revision": "e1dc629fc5a50bb9599fe78c7652644b",
-    "url": "/images/starlight/starlight-rotated.png"
+    "revision": "10697664451b2c59f4f7849e3f083c2b",
+    "url": "/images/cover/large/noisy-city.jpg"
+  },
+  {
+    "revision": "4804612e77fecf6052a29c35e806af75",
+    "url": "/images/img-to-txt/after.png"
   },
   {
     "revision": "540b8518aea7fb97bdb540e99c2b8b13",
     "url": "/images/mci/mci-all.jpg"
   },
   {
-    "revision": "10697664451b2c59f4f7849e3f083c2b",
-    "url": "/images/cover/large/noisy-city.jpg"
+    "revision": "e1dc629fc5a50bb9599fe78c7652644b",
+    "url": "/images/starlight/starlight-rotated.png"
   },
   {
-    "revision": "ec06f20b2b2071326a345be61c8700df",
-    "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
+    "revision": "47d92945ed0c4c6c6977b467e36dd830",
+    "url": "/images/quantified-self/explore.png"
+  },
+  {
+    "revision": "84c56ea66fab1eeab8aca56f9d31108b",
+    "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
   },
   {
     "revision": "ffe46e7a282212358136cfe382c23b0f",
@@ -504,12 +532,8 @@ self.__precacheManifest = [
     "url": "/images/asie-online/middle.jpg"
   },
   {
-    "revision": "f5118a7995e6740f4e8193cdac7dd772",
-    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
-  },
-  {
-    "revision": "21bccaf73ead906343a3308d547058f5",
-    "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
+    "revision": "5d8705fe1d8fc40e796f2e123d40c098",
+    "url": "/fonts/HKGrotesk-Italic.woff2"
   },
   {
     "revision": "956adc1ce35c401293c6230aeecbfc03",
@@ -524,24 +548,16 @@ self.__precacheManifest = [
     "url": "/images/asie-online/asie-online-1.jpg"
   },
   {
-    "revision": "9514299387e6180cc5b3e5a20e9258a5",
-    "url": "/fonts/HKGrotesk-Bold.woff2"
-  },
-  {
-    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
-    "url": "/fonts/HKGrotesk-SemiBold.woff2"
-  },
-  {
     "revision": "6d9408bc6b177ce74bb2369794200164",
     "url": "/fonts/HKGrotesk-BoldLegacy.woff2"
   },
   {
-    "revision": "be29113842f0546046810cc7182953a3",
-    "url": "/fonts/HKGrotesk-Medium.woff2"
+    "revision": "21bccaf73ead906343a3308d547058f5",
+    "url": "/fonts/HKGrotesk-SemiBoldItalic.woff2"
   },
   {
-    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
-    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
+    "revision": "9514299387e6180cc5b3e5a20e9258a5",
+    "url": "/fonts/HKGrotesk-Bold.woff2"
   },
   {
     "revision": "8b072388f7b77e1a74480dabe2dd8bc8",
@@ -556,16 +572,24 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-RegularLegacy.woff2"
   },
   {
+    "revision": "ec06f20b2b2071326a345be61c8700df",
+    "url": "/fonts/HKGrotesk-MediumLegacy.woff2"
+  },
+  {
+    "revision": "bc4d56adf65a5c59474a79e987f4b04b",
+    "url": "/fonts/HKGrotesk-SemiBold.woff2"
+  },
+  {
+    "revision": "4fb9a58f19ad4c8cefcd24a60577ab47",
+    "url": "/fonts/HKGrotesk-MediumLegacyItalic.woff2"
+  },
+  {
     "revision": "1312d22ee9e7d08f0ee9",
     "url": "/css/chunk-6e18e988.15c708a2.css"
   },
   {
-    "revision": "f5022dd39e66f8795cc8c68b1683461a",
-    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
-  },
-  {
-    "revision": "84c56ea66fab1eeab8aca56f9d31108b",
-    "url": "/fonts/HKGrotesk-LightLegacyItalic.woff2"
+    "revision": "f5118a7995e6740f4e8193cdac7dd772",
+    "url": "/fonts/HKGrotesk-BoldLegacyItalic.woff2"
   },
   {
     "revision": "e1e26c50793705393df2910e79224f84",
@@ -576,8 +600,12 @@ self.__precacheManifest = [
     "url": "/fonts/HKGrotesk-LightItalic.woff2"
   },
   {
-    "revision": "5d8705fe1d8fc40e796f2e123d40c098",
-    "url": "/fonts/HKGrotesk-Italic.woff2"
+    "revision": "be29113842f0546046810cc7182953a3",
+    "url": "/fonts/HKGrotesk-Medium.woff2"
+  },
+  {
+    "revision": "f5022dd39e66f8795cc8c68b1683461a",
+    "url": "/fonts/HKGrotesk-LegacyItalic.woff2"
   },
   {
     "revision": "cdcf1c6074f15dfec2ad461e4c1db60a",
